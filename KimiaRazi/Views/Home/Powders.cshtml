@@ -1,0 +1,250 @@
+﻿@section head{
+    <title>@Resources.Powder.PageTitle</title>
+}
+
+@section Scripts{
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+<!-- Products Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row post">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">@Resources.Powder.Head</h2>
+                <h3 class="section-subheading text-muted">@Resources.Powder.Subhead</h3>
+            </div>
+        </div>
+        <div class="row post">
+            <div class="col-xs-12">
+                @Html.Raw(Resources.Powder.Desc)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/powder-transparent-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Powder.Prod1H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/powder-matt-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Powder.Prod2H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/powder-opaque-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Powder.Prod3H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/powder-reactive-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Powder.Prod4H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/powder-luster-small.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Powder.Prod5H</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Powder.Prod1H</h2>
+                        <p class="item-intro text-muted">@Resources.Powder.Prod1Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/powder-opaque-big.jpg" alt="">
+                        <p>
+                            @Resources.Powder.Prod1Text
+                        </p>
+                        <ul class="list-inline">
+                            <li>@Resources.Powder.Prod1Feature</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>@Resources.Powder.Prod2H</h2>
+                        <p class="item-intro text-muted">@Resources.Powder.Prod2Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/powder-matt-big.jpg" alt="">
+
+                        <p>
+                            @Resources.Powder.Prod2Text
+                        </p>
+                        <ul class="list-inline">
+                            <li>@Resources.Powder.Prod2Feature</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Powder.Prod3H</h2>
+                        <p class="item-intro text-muted">@Resources.Powder.Prod3Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/powder-transparent-big.jpg" alt="">
+                        <p>
+                            @Resources.Powder.Prod3Text
+                        </p>
+                        <ul class="list-inline">
+                            <li>@Resources.Powder.Prod3Feature</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Powder.Prod4H</h2>
+                        <p class="item-intro text-muted">@Resources.Powder.Prod4Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/powder-reactive-big.jpg" alt="">
+                        <p>
+                            @Resources.Powder.Prod4Text
+                        </p>
+                        <ul class="list-inline">
+                            <li>@Resources.Powder.Prod4Feature</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Powder.Prod5H</h2>
+                        <p class="item-intro text-muted">@Resources.Powder.Prod5Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/powder-luster-big.jpg" alt="">
+                        <p>
+                            @Resources.Powder.Prod5Text
+                        </p>
+                        <ul class="list-inline">
+                            <li>@Resources.Powder.Prod5Feature</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

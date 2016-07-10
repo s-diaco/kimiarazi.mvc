@@ -1,0 +1,134 @@
+﻿@section head{
+    <style>
+        header {
+            background-image: url('../../Images/Shared/header-bg7.jpg');
+        }
+    </style>
+
+    <title>@Resources.Frit.PageTitle</title>
+}
+
+@section Scripts{
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+<!-- Products Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row post">
+            <div class="col-xs-12">
+                <h2 class="section-heading">@Resources.Frit.Head</h2>
+                <img class="article-img-1 pull-left" src="~/Images/article/frit2.jpg" />
+                <h3 class="section-subheading text-muted">@Resources.Frit.Subhead</h3>
+                @Html.Raw(Resources.Frit.Desc)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 portfolio-item">
+                <a href='@Url.Action("ProductDetail", new { id = "3" })' class="portfolio-link">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/trans-frit.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Frit.Prod1H</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 portfolio-item">
+                <a href='@Url.Action("ProductDetail", new { id = "2" })' class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/matt-frit.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Frit.Prod2H</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 portfolio-item">
+                <a href='@Url.Action("ProductDetail", new { id = "1" })' class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/opaque-frit.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Frit.Prod3H</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 portfolio-item">
+                <a href='@Url.Action("ProductDetail", new { id = "4" })' class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/engobe-frit.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Frit.Prod4H</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    @Resources.Frit.BeforeList
+                </p>
+                <ul class="tick-list">
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List1
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List2
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List3
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List4
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List5
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List6
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List7
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List8
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Frit.List9
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

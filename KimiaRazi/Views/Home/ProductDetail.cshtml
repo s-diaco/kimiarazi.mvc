@@ -1,0 +1,77 @@
+﻿@model KimiaRazi.Models.ProductViewModel
+
+@section head{
+    <title>@Model.subtitle</title>
+}
+
+<section id="FritDetail1">
+    <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">@Model.Name
+                    <small>@Model.subtitle</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-4">
+                <h3>@Resources.Nav.ProductDesc</h3>
+                <p>@Model.Description</p>
+                <h3>@Resources.Nav.ProductSpecs</h3>
+                <ul>
+                    <li>@Resources.Nav.ProductFeature1_MinTemp: @Model.MinSinter @Resources.Nav.Feature1Scale_Degree</li>
+                    <li>@Resources.Nav.ProductFeature1_MaxTemp: @Model.MaxSinter @Resources.Nav.Feature1Scale_Degree</li>
+                    <li>@Resources.Nav.ProductFeature2_MinTEC: @Model.TECMin @Html.Raw(Resources.Nav.Feature2Scale_TEC)</li>
+                    <li>@Resources.Nav.ProductFeature2_MaxTEC: @Model.TECMax @Html.Raw(Resources.Nav.Feature2Scale_TEC)</li>
+                </ul>
+            </div>
+
+            <div class="col-md-8">
+                <img class="img-responsive" src="~/Images/Portfolio/@Model.ImageName" alt="">
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">محصولات مرتبط</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="~/product/frit/4">
+                    <img class="img-responsive portfolio-item" src="~/Images/Portfolio/ProductDetail-s.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="~/product/frit/3">
+                    <img class="img-responsive portfolio-item" src="~/Images/Portfolio/ProductDetail-s.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="~/product/frit/2">
+                    <img class="img-responsive portfolio-item" src="~/Images/Portfolio/ProductDetail-s.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="~/product/frit/1">
+                    <img class="img-responsive portfolio-item" src="~/Images/Portfolio/ProductDetail-s.png" alt="">
+                </a>
+            </div>
+
+        </div>
+        /.row -->
+        </div>
+</section>
+        
+
+

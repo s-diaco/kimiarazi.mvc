@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/Site.css" rel="stylesheet">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/SlideShow.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/persian-text.css" rel="stylesheet" />
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+</head>
+<body id="HomeBody">
+    <form id="ctl01">
+        <!--    <img class="image" src="~/Content/images/dscn0821.jpg" /> -->
+        <div class="navbar navbar-fixed-top header-and-footer">
+                <img src="~/Images/Shared/logo 2line.png" class="logo" />
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="lang-bar">
+                            <span> <a class="taglib-icon" href="#" id="suxb" lang="en-GB"> <img class="icon" src="/Images/Shared/spacer.png" alt="فارسی" title="فارسی" style="background-image: url('../../Images/Shared/1122707.png'); background-position: 50% -132px; background-repeat: no-repeat; height: 11px; width: 16px;"> </a> </span>
+                            <span> <a class="taglib-icon" href="#" id="rjus" lang="en-GB"> <img class="icon" src="/Images/Shared/spacer.png" alt="English" title="English" style="background-image: url('../../Images/Shared/1122707.png'); background-position: 50% -77px; background-repeat: no-repeat; height: 11px; width: 16px;"> </a> </span>
+                        </li>
+                    </ul>
+                    @RenderPage("~/Views/Shared/_NavPartial.cshtml", null)
+                </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+
+        <footer class="body-content header-and-footer footer navbar-fixed-bottom">
+            <p>&copy; ۱۳۹۵ - شرکت کیمیارازی (سهامی خاص) - کلیه حقوق محفوظ است.</p>
+        </footer>
+    </form>
+
+    <script src="~/Scripts/jquery.backstretch.min.js"></script>
+    <script>
+            $.backstretch([
+          "/Images/HomeSlideShow/slide00.jpg",
+          "/Images/HomeSlideShow/slide01.jpg",
+          "/Images/HomeSlideShow/slide03.jpg"
+        ], {
+            fade: 750,
+            duration: 20000
+        });
+    </script>
+
+    <script src="~/Scripts/ticker00.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fade').list_ticker({
+                speed: 20000,
+                effect: 'fade'
+            });
+        })
+    </script>
+</body>
+</html>

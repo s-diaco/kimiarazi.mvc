@@ -1,0 +1,65 @@
+﻿<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href='@Url.Action("Index", "Home")'>
+                <img class="logo-icon" src="~/Images/Shared/logo.png" />@Resources.Home.CompanyName
+            </a>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li @ViewBag.ActiveClass2>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        @Resources.Nav.Products <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Frit, "Frits", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Glaze, "Glazes", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Printpowder, "Powders", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Specialglazes, "Special_Glazes", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Thirdfiring, "Third_Firing", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink(Resources.Nav.Digitalprinting, "Digital_Printing", "Home")
+                        </li>
+                    </ul>
+                </li>
+                <li @ViewBag.ActiveClass4>
+                    @Html.ActionLink(Resources.Nav.Services, "Services", "Home")
+                </li>
+                <li @ViewBag.ActiveClass6>
+                    @Html.ActionLink(Resources.Nav.About, "About", "Home")
+                </li>
+                <li @ViewBag.ActiveClass7>
+                    @Html.ActionLink(Resources.Nav.Contact, "Contact", "Home")
+                </li>
+
+                <!-- lang selector
+                    <li class="lang-bar">
+                    <span> <a class="taglib-icon" href="@Url.Action(ViewContext.RouteData.Values["action"].ToString(), new { lang = "fa", id = ViewContext.RouteData.Values.Keys.Contains("id") ? ViewContext.RouteData.Values["id"].ToString() : ""})" id="fair" lang="fa-IR"> <img class="lang-icon" src="~/Images/Shared/spacer.png" alt="فارسی" title="فارسی"> </a> </span>
+                    <span> <a class="taglib-icon" href="@Url.Action(ViewContext.RouteData.Values["action"].ToString(), new { lang = "en", id = ViewContext.RouteData.Values.Keys.Contains("id") ? ViewContext.RouteData.Values["id"].ToString() : ""})" id="engb" lang="en-GB"> <img class="lang-icon" src="~/Images/Shared/spacer.png" alt="English" title="English"> </a> </span>
+                </li>-->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+    </div>
+    <!-- /.container-fluid -->
+
+</nav>

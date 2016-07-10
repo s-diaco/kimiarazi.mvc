@@ -1,0 +1,108 @@
+﻿@model KimiaRazi.Models.MessageFormModel
+
+@section head{
+    <title>@Resources.Contact.PageTitle</title>
+}
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+<!-- Services Section -->
+<section id="addresses">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">
+                    <i class="fa fa-pencil-square-o"></i> @Resources.Contact.Head
+                </h2>
+                <h3 class="section-subheading text-muted">@Resources.Contact.Subhead</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 post">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">@Resources.Contact.Address1Title</h4>
+                <p class="text-muted">@Html.Raw(Resources.Contact.Address1Text)</p>
+            </div>
+            <div class="col-md-4 post">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-steam fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">@Resources.Contact.Address2Title</h4>
+                <p class="text-muted">@Html.Raw(Resources.Contact.Address2Text)</p>
+            </div>
+            <div class="col-md-4 post">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-steam-square fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">@Resources.Contact.Address3Title</h4>
+                <p class="text-muted">@Html.Raw(Resources.Contact.Address3Text)</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">@Resources.Contact.MsgHead</h2>
+                <h3 class="section-subheading text-muted">@Resources.Contact.MsgSubhead</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { role = "form", id = "contactForm", name = "sentMessage" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div>@Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })</div>
+                                @Html.TextBoxFor(m => m.Name, new { @class = "form-control", id = "name", placeholder = @Resources.Contact.MsgName + " *", type = "text" })
+                                <p class="help-block text-danger"></p><!--Please enter your name.-->
+                            </div>
+                            <div class="form-group">
+                                <div>@Html.ValidationMessageFor(m => m.EmailAddress, "", new { @class = "text-danger" })</div>
+                                @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control", id = "email", placeholder = Resources.Contact.MsgEmail + " *", type = "email" })
+                                <p class="help-block text-danger"></p><!--Please enter your email address.-->
+                            </div>
+                            <div class="form-group">
+                                <div>@Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @class = "text-danger" })</div>
+                                @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", id = "phone", placeholder = Resources.Contact.MsgPhone + " *", type = "tel" })
+                                <p class="help-block text-danger"></p><!--Please enter your phone number.-->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div>@Html.ValidationMessageFor(m => m.MsgText, "", new { @class = "text-danger" })</div>
+                                @Html.TextAreaFor(m => m.MsgText, new { @class = "form-control", id = "message", placeholder = Resources.Contact.MsgText + " *" })
+                                <p class="help-block text-danger"></p><!--Please enter a message.-->
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <input type="submit" class="btn btn-xl" value="@Resources.Contact.MsgSendBtn" data-role="none" data-inline="true" />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

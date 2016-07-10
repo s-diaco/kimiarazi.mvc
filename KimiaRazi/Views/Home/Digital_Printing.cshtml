@@ -1,0 +1,748 @@
+﻿@section head{
+    <style>
+        header {
+            background-image: url('../../Images/Shared/header-bg5.jpg');
+        }
+    </style>
+
+    <title>@Resources.DigitalInk.PageTitle</title>
+}
+
+@section Scripts{
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+<!-- Colors Grid Section -->
+
+<section id="colors" class="bg-light-gray">
+    <div class="container">
+        <div class="row post">
+            <div class="col-xs-12">
+                <img class="article-img-1 pull-left" src="~/Images/article/ink.jpg" />
+                <h2 class="section-heading"><i class="fa fa-google-wallet"></i> @Resources.DigitalInk.Head</h2>
+                @Html.Raw(Resources.DigitalInk.Desc)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-heading post">
+                    <i class="fa fa-quote-right"></i>&nbsp;@Resources.DigitalInk.WhyHead&nbsp;<i class="fa fa-quote-left"></i>
+                </h2>
+                <ul class="tick-list">
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList1
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList2
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList3
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList4
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList5
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList6.
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList7
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList8
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.DigitalInk.WhyList9
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="color-table" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Yellow</h4>
+                    <p class="text-muted">YL-1400T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.50-0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.35
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            29-30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            18.5, 12.0
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.31
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/4.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Honey</h4>
+                    <p class="text-muted">HN-1700T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.50–0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30–0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20–0.30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            19.0, 11.5
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.25
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/2.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Beige</h4>
+                    <p class="text-muted">BG-1600T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.50-0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            19.5, 12.5
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.29
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/3.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Brown</h4>
+                    <p class="text-muted">RBR-1200T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.50-0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            19.5, 12.0
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.30
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/8.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Pink</h4>
+                    <p class="text-muted">PK-1500T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.48-0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.40-0.55
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.35
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            19.0, 12.0
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.29
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/1.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Cyan</h4>
+                    <p class="text-muted">CY-1101T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.40
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.40
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.10-0.30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            18.5, 11.5
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.12
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/5.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Blue</h4>
+                    <p class="text-muted">CY-1100T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.50-0.60
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.35
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.25
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            18.5, 12.0
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.24
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/6.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team-member">
+                <div class="color-box">
+                    <h4>@Resources.DigitalInk.Black</h4>
+                    <p class="text-muted">BK-1300T Specs:</p>
+                    <div class="block-color-left">
+                        <p>Particle size distribution:</p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D90
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.40-0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D50
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.30-0.50
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            &nbsp;&nbsp;
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;D10
+                            <small>
+                                &nbsp;µm
+                            </small>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            0.20-0.30
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Surface tens.
+                            <small>&nbsp;mN/m (1Hz,35°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            28-29
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Viscosity
+                            <small>&nbsp;cP (35°C, 50°C)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            16.0, 10.0
+                        </p>
+                    </div>
+                    <div class="block-color-left pull-left">
+                        <p>
+                            Density
+                            <small>&nbsp;(gr/cm3)</small>
+                        </p>
+                    </div>
+                    <div class="block-color-right">
+                        <p>
+                            1.24
+                        </p>
+                    </div>
+                    <img src="~/Images/Portfolio/7.jpg" class="img-responsive img-circle" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>@Resources.DigitalInk.TableDlDesc</p>
+                <a href="~/downloads/kimiarazi_color_specification_table.pdf">@Resources.DigitalInk.TableLinkText<br /> (Type:pdf, Size:~390kb)</a>
+            </div>
+        </div>
+    </div>
+</section>

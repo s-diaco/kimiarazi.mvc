@@ -1,0 +1,415 @@
+﻿@{
+    Layout = "~/Views/Shared/_HomeMaster.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+    <!-- Loading style -->
+    <style>
+        #loading {
+            background-color: #000;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 1500;
+            margin-top: 0px;
+            top: 0px;
+            text-align: center;
+        }
+
+        #loading p{
+            font-size: 2em;
+        }
+
+        #loading p, #loading h4{
+            direction: ltr;
+        }
+
+        #loading-center {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        #loading-center-absolute {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 200px;
+            margin-top: -100px;
+            margin-left: -80px;
+        }
+
+        #object {
+            height: 80px;
+            color: lightgray;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 160px;
+        }
+
+
+        /*-- Loader animation */
+        .loader {
+            position: relative;
+            width: 2.5em;
+            height: 2.5em;
+            transform: rotate(165deg);
+        }
+
+            .loader:before, .loader:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: block;
+                width: 0.5em;
+                height: 0.5em;
+                border-radius: 0.25em;
+                transform: translate(-50%, -50%);
+            }
+
+            .loader:before {
+                animation: before 2s infinite;
+            }
+
+            .loader:after {
+                animation: after 2s infinite;
+            }
+
+        @@keyframes before {
+            0% {
+                width: 0.5em;
+                box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+            }
+
+            35% {
+                width: 2.5em;
+                box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+            }
+
+            70% {
+                width: 0.5em;
+                box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+            }
+
+            100% {
+                box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+            }
+        }
+
+        @@keyframes after {
+            0% {
+                height: 0.5em;
+                box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+            }
+
+            35% {
+                height: 2.5em;
+                box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+            }
+
+            70% {
+                height: 0.5em;
+                box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+            }
+
+            100% {
+                box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+            }
+        }
+
+        /*
+         * Attempt to center the whole thing!
+         */
+
+        .loader {
+            position: absolute;
+            top: calc(50% - 1.25em);
+            left: calc(50% - 1.25em);
+        }
+
+        #loading-h1 {
+            position: relative;
+            color: rgba(250, 250, 250, .3);
+        }
+
+            #loading-h1:before {
+                content: attr(data-text);
+                position: absolute;
+                overflow: hidden;
+                max-width: 10em;
+                white-space: nowrap;
+                color: #fff;
+                animation: loading 8s linear;
+                animation-iteration-count: infinite;
+            }
+
+        @@keyframes loading {
+            0% {
+                max-width: 0;
+            }
+        }
+    </style>
+    <!-- End Loading style -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  <title>@Resources.Home.PageTitle</title>
+
+    @Styles.Render("~/Content/css-home" + (System.Threading.Thread.CurrentThread.CurrentUICulture.TextInfo.IsRightToLeft ? "-rtl" : ""), "~/font-awesome/css/font-awesome.min.css")
+
+    <!-- Custom Fonts -->
+
+    @if (!System.Threading.Thread.CurrentThread.CurrentUICulture.TextInfo.IsRightToLeft)
+    {
+        @Styles.Render("http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic")
+        @Styles.Render("http://fonts.googleapis.com/css?family=Montserrat:400,700")
+    }
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Loading div -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div id="object">
+                <h4 id="loading-h1" data-text="It's loading…">It's loading…</h4>
+                </div>
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Loading div -->
+
+    <!-- Navigation -->
+    @RenderPage("~/Views/Shared/_NavPartial.cshtml", null)
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">@Resources.Home.BigCompanyName</h1>
+                        <ul id="fade">
+                            <li>
+                                <p class="intro-text">@Html.Raw(Resources.Home.Subheading1)</p>
+                            </li>
+                            <li>
+                                <p class="intro-text">@Html.Raw(Resources.Home.Subheading2)</p>
+                            </li>
+                        </ul>
+                        
+                        <a href="#about-2" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-2" class="container content-section">
+        <div class="row">
+            <div id="home-about" class="col-lg-8 col-lg-offset-2">
+                <h2 class="text-center">@Resources.Home.Policy</h2>
+                <p>@Resources.About.PolicyText</p>
+                <ul class="tick-list home-tick-list">
+                    <li>
+                        <i class="fa fa-check-circle"></i> @Resources.About.PolicyList1
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i> @Resources.About.PolicyList2
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i> @Resources.About.PolicyList3
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i> @Resources.About.PolicyList4
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section #3 Portfiloio -->
+    <section id="home" data-speed="4" data-type="background">
+        <div class="container">
+            <div class="portfolio-page portfolio-4column">
+                <ul id="portfolio-list" data-animated="fadeIn">
+                    <li class="col-md-3 col-sm-6 col-xs-12 post">
+                        <img src="~/Images/home/home-frit.jpg" alt="" />
+                        <div class="portfolio-item-content">
+                            <span class="header">@Resources.Nav.Frit</span>
+                            <p class="body">@Resources.Home.CompanyName</p>
+                        </div>
+                        <a class="btn btn-success more" href='@Url.Action("Frits", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 post">
+                        <img src="~/Images/home/home-glaze.jpg" alt="" />
+                        <div class="portfolio-item-content">
+                            <span class="header">@Resources.Nav.Glaze</span>
+                            <p class="body">@Resources.Home.CompanyName</p>
+                        </div>
+                        <a class="btn btn-success more" href='@Url.Action("Glazes", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 post">
+                        <img src="~/Images/home/home-third.jpg" alt="" />
+                        <div class="portfolio-item-content">
+                            <span class="header">@Resources.Nav.Thirdfiring</span>
+                            <p class="body">@Resources.Home.CompanyName</p>
+                        </div>
+                        <a class="btn btn-success more" href='@Url.Action("Third_Firing", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                    </li>
+                    <li class="col-md-3 col-sm-6 col-xs-12 post">
+                        <img src="~/Images/home/home-ink.jpg" alt="" />
+                        <div class="portfolio-item-content">
+                            <span class="header">@Resources.Nav.Digitalprinting</span>
+                            <p class="body">@Resources.Home.CompanyName</p>
+                        </div>
+                        <a class="btn btn-success more" href='@Url.Action("Digital_Printing", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                    </li>
+                </ul>
+                <!-- End Portfolio Items -->
+
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2>@Resources.Home.CompanyName</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 post">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>@Resources.Home.Feature4Head</strong>
+                                </h4><p>
+                                    @Resources.Home.Feature4text
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 post">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-cogs fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>@Resources.Home.Feature3Head</strong>
+                                </h4>
+                                <p>@Resources.Home.Feature3text</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 post">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-line-chart fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>@Resources.Home.Feature2Head</strong>
+                                </h4><p>
+                                    @Resources.Home.Feature2text
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 post">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>@Resources.Home.Feature1Head</strong>
+                                </h4>
+                                <p>@Resources.Home.Feature1text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    @RenderPage("~/Views/Shared/_FooterPartial.cshtml", null)
+
+    <!-- jQuery -->
+    @Scripts.Render("~/bundles/shared-scripts")
+
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated fadeInUp',
+                offset: 100
+            });
+        });
+    </script>
+
+    <!-- Parallax effect
+    @@Scripts.Render("~/Scripts/init.js") -->
+    <!-- Ticker effect -->
+    @Scripts.Render("~/Scripts/ticker00.js")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fade').list_ticker({
+                speed: 20000,
+                effect: 'fade'
+            });
+        })
+    </script>
+
+  <!-- Custom Theme JavaScript -->
+    @Scripts.Render("~/Scripts/grayscale.js")
+
+    <!-- google analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-78763476-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+    <!-- Page Loading -->
+    <script>
+        $(window).load(function () {
+            document.getElementById("loading").style.display = "none";
+        })
+    </script>
+    <!-- End Page Loading -->
+</body>
+
+</html>

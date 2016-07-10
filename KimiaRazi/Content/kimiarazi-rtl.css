@@ -1,0 +1,230 @@
+﻿/*
+ *   persian bootstrap section
+ */
+@font-face {
+    font-family: 'iransans';
+    src: url('../fonts/IRANSans-web.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/IRANSans-web.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/IRANSans-web.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    direction: rtl !important;
+    font-family: iransans;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: right;
+}
+
+.col-xs-offset-2 {
+    margin-right: 16.66666667%;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: right;
+    }
+
+    .col-sm-offset-2 {
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: right;
+    }
+
+    .col-md-offset-2 {
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: right;
+    }
+
+    .col-lg-offset-1 {
+        margin-right: 8.33333333%;
+        margin-left: auto;
+    }
+
+    .col-lg-offset-2 {
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, .section-subheading {
+    font-family: iransans !important;
+    direction: rtl;
+    line-height: 1.75 !important;
+    letter-spacing: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+nav.navbar-fixed-top {
+    font-family: iransans;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li {
+        float: right;
+    }
+
+    .navbar-header {
+        float: right;
+    }
+
+    .navbar-right {
+        float: left !important;
+    }
+}
+
+.navbar-default .nav li a {
+    font-family: iransans !important;
+    direction: rtl;
+}
+
+.row > div {
+    direction: rtl;
+}
+
+.form-control, .text-muted {
+    direction: rtl;
+    font-style: normal !important;
+}
+
+/*
+ *   end persian bootstrap section
+ */
+
+.section-subheading {
+    font-family: iransans !important;
+}
+
+.navbar-default {
+    font-size: 16px;
+}
+
+.navbar-shrink {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    text-align: right;
+    min-width: 135px;
+}
+
+#services .row .row .col-md-3, #services .row .row .col-sm-6 {
+    float: right !important;
+}
+
+.btn {
+    font-family: iransans;
+}
+
+.logo-icon {
+    float: right;
+}
+
+#services-list-section {
+    direction: rtl;
+}
+
+ul.tick-list {
+    line-height: 2em;
+    font-size: 14px;
+}
+
+ul.home-tick-list {
+    text-align: right;
+    font-size: 16px;
+}
+
+#services .service-item p{
+    line-height: 1.6;
+}
+
+.list3 {
+    direction: rtl;
+}
+
+    .list3 figure {
+        margin-left: 50px;
+    }
+
+@media (min-width: 768px) {
+
+    .timeline:before {
+        right: 50px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline:before {
+        right: 75px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .timeline:before {
+        right: 85px !important;
+    }
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    font-family: iransans !important;
+}
+
+.table-img {
+    float: right;
+}
+
+.jumbotron {
+    padding-top: 100px;
+    text-align: center;
+}
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+.navbar-brand {
+    font-family: iransans !important;
+}
+
+p.item-intro {
+    font-style: normal !important;
+}
+
+.list-inline {
+    margin-left: 35px !important;
+}
+
+footer {
+    line-height: 1.42857143;
+}
+
+    footer ul.quicklinks {
+        font-family: iransans;
+    }
+
+.lang-bar {
+    border-right: 1px solid #fff;
+    border-left: none;
+}

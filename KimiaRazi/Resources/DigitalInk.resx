@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Beige" xml:space="preserve">
+    <value>بژ</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>مشکی</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>آبی</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>قهوه‌ای</value>
+  </data>
+  <data name="Cyan" xml:space="preserve">
+    <value>سایان</value>
+  </data>
+  <data name="Desc" xml:space="preserve">
+    <value>&lt;p&gt;شرکت کیمیارازی به عنوان اولین و تنها تولید کننده جوهرهای مخصوص چاپ دیجیتال روی کاشی در ایران از سال ۱۳۹۲ بعد از نصب ماشین آلات و آماده‌سازی سالن تولید با همکاری شرکت‌های ایتالیایی شروع به تولید کرد. ما در حال حاضر با اخذ گواهی کیفیت (سرتیفیکیت) تعدادی از شرکت‌های تولید کننده ماشین‌های چاپ دیجیتال جوهر مورد نیاز شرکت‌های مختلف را با برندهای متفاوت پرینتر دیجیتال تأمین می‌کنیم. در حال حاضر جوهرهای ما از جمله در دستگاه‌های System، Intesa، Durst، Techno-Ferrari، projecta، kerajet و… مورد استفاده قرار گرفته است.&lt;/p&gt;
+                &lt;p&gt;در جوهر کیمیارازی از آخرین فن‌آوری روز استفاده شده و بالاترین بازدهی را برای انواع چاپگر در صنعت سرامیک به ارمغان می‌آورد.&lt;/p&gt;
+                &lt;p&gt;جوهرهای تولید شده در شرکت کیمیارازی با توجه به فاصله زمانی کوتاه از تولید تا مصرف با مشکل انقضای مهلت مصرف مواجه نمی‌شوند و مشکلات مربوط به واردات جوهرهای خارجی در مورد آن وجود ندارد.&lt;/p&gt;
+                &lt;p&gt;جوهرهای تولید شده سازگاری کامل با دستگاه‌های چاپ دیجیتال دارند و گواهی کیفیت (سرتیفیکیت‌های) اخذ شده برای محصولات و استفاده از محصولات ما در دستگاه‌های مختلف این ادعا را ثابت می‌کند.&lt;/p&gt;
+                &lt;p&gt;در حال حاضر هشت رنگ مختلف تولید می‌شود. آبی، سایان، زرد، عسلی، بژ، قهوه‌ای، مشکی و صورتی.&lt;/p&gt;</value>
+    <comment>Html</comment>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>جوهر ویژه چاپ دیجیتال</value>
+  </data>
+  <data name="Honey" xml:space="preserve">
+    <value>عسلی</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>محصولات - جوهر دیجیتال</value>
+  </data>
+  <data name="Pink" xml:space="preserve">
+    <value>صورتی</value>
+  </data>
+  <data name="TableDlDesc" xml:space="preserve">
+    <value>برای دانلود فایل مشخصات فنی جوهرها روی لینک زیر کلیک کنید</value>
+  </data>
+  <data name="TableLinkText" xml:space="preserve">
+    <value>جدول مشخصات جوهرهای کیمیارازی</value>
+  </data>
+  <data name="WhyHead" xml:space="preserve">
+    <value>چرا جوهر کیمیارازی؟</value>
+  </data>
+  <data name="WhyList1" xml:space="preserve">
+    <value>کارشناسان کیمیارازی بلافاصله آماده ارائه خدماتی نظیر شستشو و جایگزینی جوهر کیمیارازی در دستگاه، ساخت پروفایل، تطبیق طرح‌های قبلی با جوهر جدید و هر گونه مشاوره در خصوص جوهر و چاپ و طرح دیجیتال هستند.</value>
+  </data>
+  <data name="WhyList2" xml:space="preserve">
+    <value>جوهر کیمیارازی در دستگاه‌های مختلف جایگزین جوهرهای تأمین کننده‌های مطرح اروپایی فعال در بازار ایران شده و از این طریق مقایسه بین جوهر ما و جوهرهای وارداتی انجام شده است. کیفیت و شدت رنگ‌ها کاملاْ با نمونه‌های با کیفیت بازار قابل رقابت بوده در بعضی از رنگ‌ها شید قوی‌تری نیز دارد. در این مقایسه‌ها مشخص شد که میزان مصرف این جوهر نیز مشابه جوهرهای وارداتی است.</value>
+  </data>
+  <data name="WhyList3" xml:space="preserve">
+    <value>قیمت مناسب‌تر از جوهرهای وارداتی.</value>
+  </data>
+  <data name="WhyList4" xml:space="preserve">
+    <value>نزدیکی زمان تولید و مصرف و کاهش ریسک رسوب و توده‌ای شدن جوهر و افزایش عمر هدها.</value>
+  </data>
+  <data name="WhyList5" xml:space="preserve">
+    <value>عدم وجود مسائل گمرکی و مشکلات مربوط به واردات کالا.</value>
+  </data>
+  <data name="WhyList6" xml:space="preserve">
+    <value>تحویل جوهر حداکثر ۳ روز پس از سفارش به هر میزان. - به دلیل اطمینان از تحویل به موقع جوهر، نیاز به سفارش مقادیر زیاد جوهر وجود ندارد و کم بودن موجودی انبار مشتری، احتمال منقضی شدن تاریخ مصرف جوهر را به حداقل می‌رساند.</value>
+  </data>
+  <data name="WhyList7" xml:space="preserve">
+    <value>حتی در صورت منقضی شدن تاریخ مصرف، امکان بازگرداندن جوهر به ابتدای فرایند تولید در کیمیارازی وجود دارد بنابراین هیچ مشکلی از نظر کارکرد دستگاه و شید رنگی طرح به وجود نخواهد آمد.</value>
+  </data>
+  <data name="WhyList8" xml:space="preserve">
+    <value>با وجود زمان کمی که از شروع تولید و ارائه جوهر به بازار می‌گذرد تعداد واحدهای تولیدی که جوهر کیمیارازی را مصرف می‌کنند به سرعت در حال افزایش است.</value>
+  </data>
+  <data name="WhyList9" xml:space="preserve">
+    <value>با آزمایشگاه مجهز به آخرین فناوری روز دنیا، کلیه تست‌های جوهر با دقت بسیار بالا انجام شده و هیچ گونه نگرانی در مورد کیفیت و ثبات آن وجود ندارد.</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>زرد</value>
+  </data>
+</root>

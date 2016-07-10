@@ -1,0 +1,59 @@
+﻿@section head{
+    <style>
+        header {
+            background-image: url('../../Images/Shared/header-bg4.jpg');
+        }
+    </style>
+
+    <title>@Resources.SpecialGlazes.PageTitle</title>
+}
+
+@section Scripts{
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+
+<!-- Colors Grid Section -->
+
+<section id="colors" class="bg-light-gray">
+    <div class="container">
+        <div class="row post">
+            <div class="col-xs-12">
+                <img class="article-img-1 pull-left" src="~/Images/article/special-glaze.jpg" />
+                <h2>@Resources.SpecialGlazes.Head</h2>
+                @Html.Raw(Resources.SpecialGlazes.Desc)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 post">
+                <div class="team-member">
+                    <img src="~/Images/Portfolio/vetrosa-protection.jpg" class="img-responsive img-circle" alt="">
+                    <h4>@Resources.SpecialGlazes.Prod1H</h4>
+                    <p class="text-muted">@Resources.SpecialGlazes.Prod1Subhead</p>
+                </div>
+            </div>
+            <div class="col-sm-4 post">
+                <div class="team-member">
+                    <img src="~/Images/Portfolio/vetrosa-metallic.jpg" class="img-responsive img-circle" alt="">
+                    <h4>@Resources.SpecialGlazes.Prod2H</h4>
+                    <p class="text-muted">@Resources.SpecialGlazes.Prod2Subhead</p>
+                </div>
+            </div>
+            <div class="col-sm-4 post">
+                <div class="team-member">
+                    <img src="~/Images/Portfolio/vetrosa-crackle.jpg" class="img-responsive img-circle" alt="">
+                    <h4>@Resources.SpecialGlazes.Prod3H</h4>
+                    <p class="text-muted">@Resources.SpecialGlazes.Prod3Subhead</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

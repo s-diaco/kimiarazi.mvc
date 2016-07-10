@@ -1,0 +1,194 @@
+﻿@section head{
+    <title>@Resources.Glaze.PageTitle</title>
+}
+
+@section Scripts{
+    <!-- animated scroll loading effect -->
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.post').addClass("not-visible").viewportChecker({
+                classToAdd: 'visible animated bounceInUp',
+                offset: 100
+            });
+        });
+    </script>
+}
+
+<!-- Products Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row post">
+            <div class="col-xs-12">
+                <img class="article-img-1 pull-left" src="~/Images/article/glaze.jpg" />
+                <h2 class="section-heading">@Resources.Glaze.Head</h2>
+                <h3 class="section-subheading text-muted">@Resources.Glaze.Subhead</h3>
+                @Html.Raw(Resources.Glaze.Desc)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/engobe.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Glaze.Prod1H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/matt-glaze.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Glaze.Prod2H</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="~/Images/portfolio/opaque-glaze.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>@Resources.Glaze.Prod3H</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-heading">@Resources.Glaze.WhyHead</h2>
+                <ul class="tick-list">
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List1
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List2
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List3
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List4
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List5
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List6
+                    </li>
+                    <li>
+                        <i class="fa fa-check-circle"></i>
+                        @Resources.Glaze.List7
+                    </li>
+                </ul>
+                <P>
+                    <strong>
+                        @Resources.Glaze.Conclusion
+                    </strong>
+                </P>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Glaze.Prod1H</h2>
+                        <p class="item-intro text-muted">@Resources.Glaze.Prod1Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/test.jpg" alt="">
+                        <p>
+                            @Resources.Glaze.Prod1Text
+                        </p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>@Resources.Glaze.Prod2H</h2>
+                        <p class="item-intro text-muted">@Resources.Glaze.Prod2Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/matt-glaze-big.jpg" alt="">
+
+                        <p>
+                            @Resources.Glaze.Prod2Text
+                        </p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade post" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>@Resources.Glaze.Prod3H</h2>
+                        <p class="item-intro text-muted">@Resources.Glaze.Prod3Subhead</p>
+                        <img class="img-responsive img-centered" src="~/Images/portfolio/opaque-glaze-big.jpg" alt="">
+                        <p>
+                            @Resources.Glaze.Prod3Text
+                        </p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> @Resources.Nav.ReturnBtn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
