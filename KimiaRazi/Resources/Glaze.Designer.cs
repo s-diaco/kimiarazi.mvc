@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to توصیه کیمیارازی به مشتریان خود استفاده از مجموعه‌های آماده انگوب و لعاب می‌باشد..
+        ///   Looks up a localized string similar to کیمیارازی به مشتریان خود استفاده از مجموعه‌های آماده انگوب و لعاب را توصیه می‌کند..
         /// </summary>
         public static string Conclusion {
             get {
@@ -70,8 +70,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;شرکت کیمیارازی با تکیه بر کیفیت بالای فریت‌ها و مواد اولیه در دسترس این شرکت یکی از بزرگترین تولید کنندگان مجموعه‌های لعاب و انگوب در ایران است. کارشناسان ما در صورت تمایل مشتری با توجه به شرایط تولید هر تولید کننده کاشی و سرامیک، اقدام به طراحی مجموعه‌های لعاب یا انگوب می‌نمایند. محصولات تولید شده شامل لعاب‌های مات با انواع افکت‌های سطحی ویژه این نوع لعاب، انواع انگوب با رنج وسیعی از ضریب انبساط و حرارت پخت برای کاشی دیوار، مونوپروزا، کف و پرسلان و انواع لعاب‌های ترانسپارنت و اوپک می‌باشد.&lt;/p&gt;
-        ///         [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt;شرکت کیمیارازی با تکیه بر کیفیت بالای فریت‌ها و مواد اولیه دردسترس این شرکت یکی از بزرگترین تولیدکنندگان مجموعه‌های لعاب و انگوب در ایران است. کارشناسان ما درصورت تمایل مشتری، با توجه به شرایط تولید هر تولیدکننده کاشی و سرامیک، مجموعه‌های لعاب یا انگوب را طراحی می‌کنند. محصولات تولیدشده شامل لعاب‌های مات با انواع افکت‌های سطحی ویژه این نوع لعاب، انواع انگوب با طیف وسیعی از ضریب انبساط و حرارت پخت برای کاشی دیوار، مونوپروزا، کف و پرسلان و انواع لعاب‌های ترانسپارنت و اوپک می‌باشد.&lt;/p&gt;
+        ///&lt;p&gt;کیمیارازی همواره ت [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Desc {
             get {
@@ -80,7 +80,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to مجموعه‌ها (کامپوند).
+        ///   Looks up a localized string similar to مجموعه‌ها (Compounds).
         /// </summary>
         public static string Head {
             get {
@@ -89,7 +89,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to مجموعه‌های آماده انگوب و لعاب در کیمیارازی به صورت کاملاً اتوماتیک تولید می‌شود و امکان اشتباه پرسنلی در توزین و میکس مجموعه وجود ندارد..
+        ///   Looks up a localized string similar to مجموعه‌های آماده انگوب و لعاب در کیمیارازی به صورت کاملاً اتوماتیک تولید می‌شود و امکان اشتباه پرسنلی در توزین و ترکیب مجموعه وجود ندارد..
         /// </summary>
         public static string List1 {
             get {
@@ -98,7 +98,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to با توجه به این که کیمیارازی تولیدکننده فریت است از مواد اولیه با کیفیت و تنوع بالا در تولید مجموعه لعاب و انگوب استفاده می‌کند..
+        ///   Looks up a localized string similar to با توجه به این که کیمیارازی تولیدکننده فریت است از مواد اولیه باکیفیت و تنوع بالا در تولید مجموعه لعاب و انگوب استفاده می‌کند..
         /// </summary>
         public static string List2 {
             get {
@@ -116,7 +116,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to در صورت خرید مجموعه‌های آماده، تولید کنندگان کاشی و سرامیک نیازی به دپوی انبار از مواد اولیه مختلف و متعدد جهت ساخت مجموعه‌های مصرفی نخواهند داشت..
+        ///   Looks up a localized string similar to در صورت خرید مجموعه‌های آماده، تولیدکنندگان کاشی و سرامیک نیازی به ذخیره انبار از مواد اولیه مختلف و متعدد برای ساخت مجموعه‌های مصرفی نخواهند داشت..
         /// </summary>
         public static string List4 {
             get {
@@ -125,7 +125,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to در صورت بروز مشکل در مجموعه مصرفی، مسئولیت آن به عهده کیمیارازی است و مشتری تنها با یک تأمین کننده روبرو می‌شود..
+        ///   Looks up a localized string similar to درصورت بروز مشکل در مجموعه مصرفی، مسئولیت آن به عهده کیمیارازی است و مشتری تنها با یک تأمین‌کننده روبرو می‌شود..
         /// </summary>
         public static string List5 {
             get {
@@ -134,7 +134,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to امکان استفاده از مشاوره‌های بیشتر کیمیارازی به ویژه در مواقع بروز مشکل وجود دارد..
+        ///   Looks up a localized string similar to امکان استفاده از مشاوره‌های بیشتر کیمیارازی به‌ویژه در مواقع بروز مشکل وجود دارد..
         /// </summary>
         public static string List6 {
             get {
@@ -143,7 +143,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to در نهایت به دلایل فوق کیفیت محصول تولیدی توسط مشتری ارتقا می‌یابد..
+        ///   Looks up a localized string similar to درنهایت به دلایل فوق کیفیت محصول تولیدی توسط مشتری ارتقا می‌یابد..
         /// </summary>
         public static string List7 {
             get {
@@ -188,7 +188,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to منطبق با ویژگی‌های مورد درخواست مشتری با ضریب انبساط منتاسب با بدنه‌ها و لعاب‌های گوناگون منطبق با ویژگی‌های مورد درخواست مشتری آماده ارائه به مشتریان می‌باشد..
+        ///   Looks up a localized string similar to منطبق با ویژگی‌های مورد درخواست مشتری با ضریب انبساط متناسب با بدنه‌ها و لعاب‌های گوناگون منطبق با ویژگی‌های مورد درخواست مشتری آماده ارائه به مشتریان است..
         /// </summary>
         public static string Prod1Text {
             get {
@@ -260,7 +260,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to متناسب با خواست مشتری با فریت‌ها و مواد اولیه با کیفیت آماده ارائه به مشتریان می‌باشد..
+        ///   Looks up a localized string similar to متناسب با خواست مشتری با فریت‌ها و مواد اولیه باکیفیت، آماده ارائه به مشتریان است..
         /// </summary>
         public static string Prod3Text {
             get {
@@ -314,7 +314,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to بسیاری از تولید کنندگان برتر کاشی و سرامیک در جمع مشتریان لعاب‌های ما هستند. چون….
+        ///   Looks up a localized string similar to بسیاری از تولیدکنندگان برتر کاشی و سرامیک در جمع مشتریان لعاب‌های ما هستند. چون….
         /// </summary>
         public static string WhyHead {
             get {

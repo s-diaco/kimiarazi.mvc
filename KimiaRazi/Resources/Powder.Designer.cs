@@ -61,9 +61,8 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;کیفیت پودر چاپ نقش بسیار مهمی در کیفیت طرح اعمال شده روی بدنه و عمر دستگاه‌های چاپ تخت یا روتوکالر دارد. در کنار استفاده از رنگ‌های مناسب و با کیفیت٬ برای رسیدن به کیفیت و ثبات بهینه باید مناسب‌ترین پودر چاپ به کار برده شود.&lt;/p&gt;
-        ///                &lt;p&gt;پودر چاپ‌های شرکت کیمیارازی با استفاده از آخرین فناوری روز و تجهیزات پیشرفته تولید می‌شوند تا کیفیت بالا و ثبات مورد نظر مشتری تأمین گردد.&lt;/p&gt;
-        ///                &lt;p&gt;تنوع بالای محصولات٬ ما را قادر می‌کند که پاسخ‌گوی هر نوع نیاز در بازار متنوع این محصول باشیم. و ک [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt;کیفیت پودر چاپ نقش بسیار مهمی در کیفیت طرح اعمال شده روی بدنه و عمر دستگاه‌های چاپ تخت یا Rotocolor دارد. در کنار استفاده از رنگ‌های مناسب و باکیفیت٬ برای رسیدن به کیفیت و ثبات بهینه باید مناسب‌ترین پودر چاپ به کار برده شود.&lt;/p&gt;&lt;p&gt;پودر چاپ‌های شرکت کیمیارازی با استفاده از آخرین فناوری روز و تجهیزات پیشرفته تولید می‌شوند تا کیفیت بالا و ثبات موردنظر مشتری تأمین گردد.&lt;/p&gt;
+        ///                &lt;p&gt;تنوع بالای محصولات٬ ما را قادر می‌کند که پاسخ‌گوی هر نوع نیاز در بازار متنوع این محصول باشیم. کارشناسان ما با سال‌ها  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Desc {
             get {
@@ -126,7 +125,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to با رنگ‌دهی بالا و درجه‌های متنوع براقیت آماده ارایه به مشتریان با نیازهای متنوع..
+        ///   Looks up a localized string similar to با رنگ‌دهی بالا و درجه‌های متنوع براقیت آماده ارایه به مشتریان با نیازهای متنوع است..
         /// </summary>
         public static string Prod1Text {
             get {
@@ -225,7 +224,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to پودر چاپ ری اکتیو کیمیارازی.
+        ///   Looks up a localized string similar to پودر چاپ ری‌اکتیو کیمیارازی.
         /// </summary>
         public static string Prod4Subhead {
             get {
@@ -234,7 +233,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to با قدرت نفوذ بالا جهت ایجاد فرورفتگی روی سطح لعاب در طرح‌هایی که بافت غیر هم‌سطح دارند..
+        ///   Looks up a localized string similar to با قدرت فرونشست بالا جهت ایجاد فرورفتگی روی سطح لعاب در طرح‌هایی که بافت غیرهم‌سطح دارند..
         /// </summary>
         public static string Prod4Text {
             get {

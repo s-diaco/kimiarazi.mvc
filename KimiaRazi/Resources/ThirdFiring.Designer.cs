@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt; پخت سوم عبارتست از ایجاد دکور روی محصولات سرامیک و پخت مجدد آنها در دماهای پایین‌تر که به ما اجازه استفاده از مواد ویژه دکور، مانند لوستر، رنگین کمانی، فلزات گرانبها، دانه شکری و ... را می دهد. این مواد در دماهای بالایی که جهت پخت لعاب مورد استفاده قرار می گیرد دوام نخواهند آورد. محصول مورد استفاده بستگی به پروسه تولید مورد استفاده متفاوت خواهد بود. &lt;/p&gt;&lt;p&gt;وتروزاهای تولیدی شرکت کیمیارازی با فناوری و دستگاه‌های مدرن روز تولید شده و با توجه به این که توزیع اندازه ذرات و دانه بندی در این محصول بسیار مهم  [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;p&gt; پخت سوم عبارتست از ایجاد دکور روی محصولات سرامیک و پخت مجدد آنها در دماهای پایین‌تر که به ما اجازه استفاده از مواد ویژه دکور، مانند لوستر، رنگین‌کمانی، فلزات گرانبها، دانه شکری و غیره را می‌دهد. این مواد در دماهای بالا برای پخت لعاب دوام نخواهند آورد. محصول مورد استفاده بسته به فرایند تولید به‌کاررفته متفاوت خواهد بود. &lt;/p&gt;&lt;p&gt;محصولات دانه‌شکری (Vitrosa) شرکت کیمیارازی با فناوری و دستگاه‌های مدرن روز تولید شده و با توجه به این که توزیع اندازه ذرات و دانه بندی در این محصول بسیار مهم و بر کیفیت تأثیرگذار ا [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Desc {
             get {
@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to وتروزای ترانسپارنت.
+        ///   Looks up a localized string similar to دانه‌شکری ترانسپارنت.
         /// </summary>
         public static string Prod1H {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to وتروزای متالیک.
+        ///   Looks up a localized string similar to دانه‌شکری متالیک.
         /// </summary>
         public static string Prod2H {
             get {

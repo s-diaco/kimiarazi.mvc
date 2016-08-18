@@ -139,13 +139,13 @@
     <value>فناوری</value>
   </data>
   <data name="Feature3text" xml:space="preserve">
-    <value>محصولات ما با استفاده از به روزترین و پیشرفته ترین تجهیزات و ماشین‌آلات، طراحی و تولید می‌شوند.</value>
+    <value>محصولات ما با استفاده از به‌روزترین و پیشرفته‌ترین تجهیزات و ماشین‌آلات طراحی و تولید می‌شوند.</value>
   </data>
   <data name="Feature4Head" xml:space="preserve">
     <value>تجربه</value>
   </data>
   <data name="Feature4text" xml:space="preserve">
-    <value>با سابقه بیش از سه دهه٬ کیمیارازی قدیمی‌ترین و بزرگ‌ترین تولید کننده فریت و لعاب در ایران است.</value>
+    <value>با سابقه بیش از سه دهه٬ کیمیارازی قدیمی‌ترین و بزرگ‌ترین تولیدکننده فریت و لعاب در ایران است.</value>
   </data>
   <data name="HomeLinkText" xml:space="preserve">
     <value>&lt;span class="light"&gt;صفحه&lt;/span&gt; اصلی</value>
@@ -161,11 +161,11 @@
     <value>بیشتر بدانید</value>
   </data>
   <data name="Subheading1" xml:space="preserve">
-    <value>&lt;span class="colored-span"&gt;اولین&lt;/span&gt; و &lt;span class="colored-span"&gt;بزرگ‌ترین&lt;/span&gt; تولید کننده انواع لعاب&lt;br&gt;و جوهر دیجیتال در ایران</value>
+    <value>&lt;span class="colored-span"&gt;اولین&lt;/span&gt; و &lt;span class="colored-span"&gt;بزرگ‌ترین&lt;/span&gt; تولیدکننده انواع لعاب&lt;br&gt;و جوهر دیجیتال در ایران.</value>
     <comment>html</comment>
   </data>
   <data name="Subheading2" xml:space="preserve">
-    <value>&lt;span class="colored-span"&gt;گسترده‌ترین&lt;/span&gt; و &lt;span class="colored-span"&gt;به‌روزترین&lt;/span&gt; سبد محصولات&lt;br&gt;در صنعت لعاب کشور</value>
+    <value>&lt;span class="colored-span"&gt;گسترده‌ترین&lt;/span&gt; و &lt;span class="colored-span"&gt;به‌روزترین&lt;/span&gt; سبد محصولات&lt;br&gt;در صنعت لعاب کشور.</value>
     <comment>html</comment>
   </data>
   <data name="Subheading3" xml:space="preserve">

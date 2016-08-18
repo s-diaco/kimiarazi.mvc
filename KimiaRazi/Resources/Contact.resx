@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Address1Text" xml:space="preserve">
-    <value>تهران – میدان ونک – خیابان ملاصدرا – خیابان شیراز جنوبی – نبش کوچه سرو – پلاک ۳۱ – طبقه چهارم - کد پستی: ۱۴۳۵۸۸۳۱۳۴&lt;br /&gt;
+    <value>تهران – میدان ونک – خیابان ملاصدرا – خیابان شیراز جنوبی – پلاک ۳۱ – طبقه چهارم - کد پستی: ۱۴۳۵۸۸۳۱۳۴&lt;br /&gt;
                     تلفن: ۲ – ۸۸۰۴۱۴۵۰ (۰۲۱)&lt;br /&gt;فکس: ۸۸۰۴۱۴۵۳ (۰۲۱)</value>
     <comment>html</comment>
   </data>
@@ -126,7 +126,7 @@
     <value>دفتر مرکزی</value>
   </data>
   <data name="Address2Text" xml:space="preserve">
-    <value>قزوین - شهر صنعتی البرز - فلکه دوم - خیابان میرداماد غربی - جنب اداره پست - خیابان فارابی جنوبی &lt;br /&gt;
+    <value>قزوین - شهر صنعتی البرز - فلکه دوم - خیابان میرداماد غربی - خیابان فارابی جنوبی &lt;br /&gt;
                     تلفن: ۳۲۲۲۲۶۵۸ – ۳۲۲۲۳۶۵۸ (۰۲۸)&lt;br /&gt;فکس: ۳۲۲۲۲۵۵۱ (۰۲۸)</value>
     <comment>html</comment>
   </data>
@@ -178,6 +178,6 @@
     <value>تماس با کیمیارازی</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value>جهت هر گونه درخواست یا پرسش با ما تماس بگیرید.</value>
+    <value>جهت هرگونه درخواست یا پرسش با ما تماس بگیرید.</value>
   </data>
 </root>
