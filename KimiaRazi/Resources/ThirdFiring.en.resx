@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Desc" xml:space="preserve">
-    <value />
+    <value>&lt;p&gt;Third firing is designing the ceramic products and firing them again in lower temperature so we can design with specific materials including luster, rain bow, valuable metals, Vitrosa, etc. The named materials cannot resist high temperature on firing the glaze. The applied product differs on different production process.&lt;/p&gt;&lt;p&gt;KimiaRazi Vitrosa products are made by the latest modern technology and equipment. Considering that particle size distribution plays a crucial role in quality of the product the machinery distributes the particles uniformly and adequately.&lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value />
+    <value>Third Firing</value>
   </data>
   <data name="List" xml:space="preserve">
     <value />
     <comment>Html</comment>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Products - Third Firing</value>
   </data>
   <data name="Prod1Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value />
+    <value>Transparent Vitrosa</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value />
+    <value>vitrosa</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
     <value />
@@ -147,10 +147,10 @@
     <value />
   </data>
   <data name="Prod2H" xml:space="preserve">
-    <value />
+    <value>Metallic Vitrosa</value>
   </data>
   <data name="Prod2Subhead" xml:space="preserve">
-    <value />
+    <value>vitrosa</value>
   </data>
   <data name="Prod2Text" xml:space="preserve">
     <value />

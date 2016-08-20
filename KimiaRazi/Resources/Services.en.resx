@@ -118,11 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Desc" xml:space="preserve">
-    <value>&lt;p&gt;Lorem ipsum dolor sit amet, ferri apeirian qui at, no assueverit omittantur qui, commodo salutandi has ad. Legere regione contentiones an qui. Verterem pericula delicatissimi at cum. No legere rationibus quo?
-  &lt;/p&gt;
-  &lt;p&gt;
-Et usu iriure oporteat liberavisse. Apeirian mandamus adipiscing eu eum, laudem fierent accusata te mea, his in nibh feugait tincidunt. Clita nostro sed ut, vix expetendis vituperata ne, sea eu veritus lucilius? Et hinc dicam scripserit mel. Sed ea probo altera mandamus, ex meis blandit nam. In sea sale natum, ei vis scripta postulant. Ut sumo decore platonem pri, in tantas patrioque eos, tollit voluptua philosophia an has.
-  &lt;/p&gt;</value>
+    <value>&lt;p&gt;In order to achieving the best co-operation way and long-term success in the mutually interested projects it keeps a close and good relation with its customers. Providing engineering customer service is one of its basic principles.&lt;/p&gt;
+&lt;p&gt;KimiaRazi offers necessary technical support and know- how to the customers to improve the quality of the products, and keeps the close and good relation with the customers to provide the best solution for each problem to  reach the satisfying result with particular condition for each customer. The company’s objective is mutually developing the products from designing to production. The comprehensive services was provided for each customer individually, allocated the particular conditions of that company and its market.&lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
@@ -132,36 +129,36 @@ Et usu iriure oporteat liberavisse. Apeirian mandamus adipiscing eu eum, laudem 
     <value>KimiaRazi - Services</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, ferri apeirian qui at, no assueverit omittantur qui, commodo salutandi has ad. Legere regione contentiones an qui. Verterem pericula delicatissimi at cum. No legere rationibus quo?</value>
+    <value>KimiaRazi engineering section provides customer services to tile and ceramic producers in both ceramic and digital printing Ink.</value>
   </data>
   <data name="Svc1h" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, ferri apeirian qui at,</value>
+    <value>Designing and production</value>
   </data>
   <data name="Svc1t" xml:space="preserve">
-    <value>Et usu iriure oporteat liberavisse. Apeirian mandamus adipiscing eu eum, laudem fierent accusata te mea, his in nibh feugait tincidunt. Clita nostro sed ut, vix expetendis vituperata ne, sea eu veritus lucilius? Et hinc dicam scripserit mel. Sed ea probo altera mandamus, ex meis blandit nam. In sea sale natum, ei vis scripta postulant. Ut sumo decore platonem pri, in tantas patrioque eos, tollit voluptua philosophia an has.</value>
+    <value>The company is prepared to design and customize any kinds of glaze - frit, compound, powder, etc. – exclusively to the customer in full agreement with its producing process conditions and will test it on the customer’s product line to develop the best and most suitable formulae to achieve the satisfying end product.</value>
   </data>
   <data name="Svc2h" xml:space="preserve">
-    <value>Partem graecis et pro, ad prima noster assentior quo.</value>
+    <value>The experts are available for professional consultation and advice for solving problems and improving the quality of Tile and Ceramic productions.</value>
   </data>
   <data name="Svc2t" xml:space="preserve">
-    <value>Partem graecis et pro, ad prima noster assentior quo. Vix enim aperiri eu, vim nobis labore nominavi in. An malorum volumus nam, ei pri duis tollit graece, cu quo abhorreant vituperata. In possit eleifend disputando sed, sumo denique pertinacia ex qui.</value>
+    <value>KimiaRazi undertakes to secure the customers’ superior quality products, therefore it gives its customers all-out-support by offering high quality products and giving advice for solving production problems and adapting methods and ways suitable for their production line.</value>
   </data>
   <data name="Svc3h" xml:space="preserve">
-    <value>Partem graecis et pro, ad prima noster assentior quo.</value>
+    <value>KimiaRazi experts help with any industrial and laboratory tests</value>
   </data>
   <data name="Svc3t" xml:space="preserve">
-    <value>Iisque nusquam constituto nec cu, sea accusamus interesset reprehendunt ea? Sit ne mutat decore, te ipsum eirmod duo. Ea lobortis splendide necessitatibus eum, ne illud graece quaerendum pro. Salutatus vituperata voluptatibus te eum!</value>
+    <value>The experienced experts are ready for any industrial and laboratory tests of any kinds of tile glaze to offer the best quality product to its customers.</value>
   </data>
   <data name="Svc4h" xml:space="preserve">
-    <value>Harum molestiae eu eos, ex quo tractatos laboramus!</value>
+    <value>The adaptation of the customers desired design to our inks.</value>
   </data>
   <data name="Svc4t" xml:space="preserve">
-    <value>Harum molestiae eu eos, ex quo tractatos laboramus! In iuvaret rationibus usu? Ad vim debet fierent luptatum, sed te fabulas inciderint sadipscing, pro ad impedit molestie. Liber elaboraret in mei.</value>
+    <value>For those customers who put designs in market which made by other producers, KimiaRazi experts can produce inks exactly adopted to the previous ones in design and color and the customers should not be worried  about the color match at all.</value>
   </data>
   <data name="Svc5h" xml:space="preserve">
-    <value>Harum molestiae eu eos, ex quo tractatos laboramus!</value>
+    <value>Creation and correction of color profile</value>
   </data>
   <data name="Svc5t" xml:space="preserve">
-    <value>Iisque nusquam constituto nec cu, sea accusamus interesset reprehendunt ea? Sit ne mutat decore, te ipsum eirmod duo. Ea lobortis splendide necessitatibus eum, ne illud graece quaerendum pro. Salutatus vituperata voluptatibus te eum!</value>
+    <value>KimiaRazi can create a profile on customer request match up with all body, engob, glaze, firing and etc. conditions applying the latest equipment and soft wares in the world as soon as possible.</value>
   </data>
 </root>

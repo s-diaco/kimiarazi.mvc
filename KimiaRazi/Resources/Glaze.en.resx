@@ -117,55 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Conclusion" xml:space="preserve">
+    <value>کیمیارازی به مشتریان خود استفاده از مجموعه‌های آماده انگوب و لعاب را توصیه می‌کند.</value>
+  </data>
   <data name="Desc" xml:space="preserve">
-    <value />
+    <value>&lt;p&gt;Considering KimiaRazi high quality frits and raw and primary materials, it is one of the biggest Engob and glaze producers in Iran. Its experts design glaze and engob compounds on each customer order and request individually. The products include matt glaze in various surface effects appropriated to these kind of glazes, different types of engob with wide range of expansion coefficient and firing temperature are used for wall, monoporosa, floor, porslan tiles and many kinds of transparent and opaque glaze.&lt;/p&gt;
+&lt;p&gt;KimiaRazi Ltd. has been glaze supplier of the reputable tile and ceramic producers in Iran.&lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value />
+    <value>Compounds</value>
   </data>
-  <data name="List" xml:space="preserve">
-    <value />
-    <comment>Html</comment>
+  <data name="List1" xml:space="preserve">
+    <value>The ready-to-use engob and glaze compounds are produced fully automatically, with no possibility of personnel mistake in weighing and mixing the compounds.</value>
+  </data>
+  <data name="List2" xml:space="preserve">
+    <value>KimiaRazi uses high quality and variable raw and primary materials in producing glaze and engob compounds.</value>
+  </data>
+  <data name="List3" xml:space="preserve">
+    <value>As KimiaRazi experts are responsible for formulating the glazes, therefore the quality of the ready-in-use formulated engob and glaze compounds are so high.</value>
+  </data>
+  <data name="List4" xml:space="preserve">
+    <value>If the tile and ceramic producers purchase ready-to-use compounds, they will not need to store raw and primary materials for producing compounds,.</value>
+  </data>
+  <data name="List5" xml:space="preserve">
+    <value>KimiaRazi will be responsible for sorting out any problem occurs. The customer just deals with one supplier.</value>
+  </data>
+  <data name="List6" xml:space="preserve">
+    <value>KimiaRazi provides extra consultancy services in case of raising any problem.</value>
+  </data>
+  <data name="List7" xml:space="preserve">
+    <value>Eventually, customers improve the quality of products for mentioned reasons.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Products - Compounds</value>
   </data>
   <data name="Prod1Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value />
+    <value>Engob Compounds</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Ready-to-use Engob Compounds</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
-    <value />
+    <value>The compounds are produced in full agreement with specifications at the request of the customer, expansion coefficient suitable for different bodies and glazes are ready to offer.</value>
   </data>
   <data name="Prod2Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod2H" xml:space="preserve">
-    <value />
+    <value>Matt Glaze</value>
   </data>
   <data name="Prod2Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Matt Glaze Compounds</value>
   </data>
   <data name="Prod2Text" xml:space="preserve">
-    <value />
+    <value>Variant kinds of transparent and opaque matt glazes with hard and soft surface, high chemical resistance matched with different conditions of the customers are offered.</value>
   </data>
   <data name="Prod3Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod3H" xml:space="preserve">
-    <value />
+    <value>Transparent and Opaque Glaze</value>
   </data>
   <data name="Prod3Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Transparent and Opaque Glaze Compounds</value>
   </data>
   <data name="Prod3Text" xml:space="preserve">
-    <value />
+    <value>The glazes perfectly match the customers’ requirements, are made from high quality frits and raw and primary materials are ready-to-use.</value>
   </data>
   <data name="Prod4Feature" xml:space="preserve">
     <value />
@@ -180,6 +201,9 @@
     <value />
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value />
+    <value>Ready-to-use Glaze and Engob compounds</value>
+  </data>
+  <data name="WhyHead" xml:space="preserve">
+    <value>Lots of superior tile and ceramic producers are KimiaRazi glaze customers.</value>
   </data>
 </root>

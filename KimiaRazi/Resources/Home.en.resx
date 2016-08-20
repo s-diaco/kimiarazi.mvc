@@ -124,35 +124,35 @@
     <value>KimiaRazi</value>
   </data>
   <data name="Feature1Head" xml:space="preserve">
-    <value>Service</value>
+    <value>Services</value>
   </data>
   <data name="Feature1text" xml:space="preserve">
-    <value>In iuvaret rationibus usu? Ad vim debet fierent luptatum, sed te fabulas inciderint sadipscing, pro ad impedit molestie.</value>
+    <value>We are always in a close relation to the customers to achieve the best end product.</value>
   </data>
   <data name="Feature2Head" xml:space="preserve">
     <value>Quality</value>
   </data>
   <data name="Feature2text" xml:space="preserve">
-    <value>Sit ne mutat decore, te ipsum eirmod duo. Ea lobortis splendide necessitatibus eum, ne illud graece quaerendum pro.</value>
+    <value>Many reputable, successful and big Tile and Ceramic producers use KimiaRazi products.</value>
   </data>
   <data name="Feature3Head" xml:space="preserve">
     <value>Technology</value>
   </data>
   <data name="Feature3text" xml:space="preserve">
-    <value>An malorum volumus nam, ei pri duis tollit graece, cu quo abhorreant vituperata.</value>
+    <value>KimiaRazi apply the latest, most modern and advanced technology and equipment for designing and producing its products.</value>
   </data>
   <data name="Feature4Head" xml:space="preserve">
     <value>Experience</value>
   </data>
   <data name="Feature4text" xml:space="preserve">
-    <value>Lorem ipsum dolor sit amet, ferri apeirian qui at, no assueverit omittantur qui, commodo salutandi has ad.</value>
+    <value>KimiaRazi, with more than 30 year experience, is one of the oldest and biggest producers of frit and ceramic glaze in Iran.</value>
   </data>
   <data name="HomeLinkText" xml:space="preserve">
-    <value>&lt;span class="light"&gt;KimiaRazi&lt;/span&gt; Home</value>
+    <value>&lt;span class="light"&gt;Main&lt;/span&gt; Page</value>
     <comment>html</comment>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Kimia Razi</value>
+    <value>KimiaRazi</value>
   </data>
   <data name="Policy" xml:space="preserve">
     <value>Our Policy</value>
@@ -160,8 +160,16 @@
   <data name="ReadMore" xml:space="preserve">
     <value>Read more</value>
   </data>
-  <data name="Subheading" xml:space="preserve">
-    <value>The first and biggest Producer of Frits&lt;br&gt;Glazes and digital inks of Iran</value>
+  <data name="Subheading1" xml:space="preserve">
+    <value>The &lt;span class="colored-span"&gt;First&lt;/span&gt; and &lt;span class="colored-span"&gt;Biggest&lt;/span&gt; producer of various kinds of ceramic glaze&lt;br&gt;and digital inks in Iran.</value>
+    <comment>html</comment>
+  </data>
+  <data name="Subheading2" xml:space="preserve">
+    <value>The most &lt;span class="colored-span"&gt;Diverse&lt;/span&gt; and &lt;span class="colored-span"&gt;Modern&lt;/span&gt; products&lt;br&gt;in Iran's ceramic glaze industry.</value>
+    <comment>html</comment>
+  </data>
+  <data name="Subheading3" xml:space="preserve">
+    <value />
     <comment>html</comment>
   </data>
 </root>

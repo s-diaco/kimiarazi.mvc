@@ -169,7 +169,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to خط مشی کیمیارازی.
+        ///   Looks up a localized string similar to Our Policy.
         /// </summary>
         public static string Policy {
             get {
