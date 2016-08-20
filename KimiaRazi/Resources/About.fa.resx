@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="H1360Head" xml:space="preserve">
+    <value>1981- The Beginning</value>
+  </data>
+  <data name="H1360text" xml:space="preserve">
+    <value>1981- It started up in Alborz industrial city, Qazvin.</value>
+  </data>
+  <data name="H1378Head" xml:space="preserve">
+    <value>1999 – Installation, running and started operating the first continuous kiln.</value>
+  </data>
+  <data name="H1378Text" xml:space="preserve">
+    <value>KimiaRazi used continuous kiln which was the most modern global technology to enhance and maintain the quality.</value>
+  </data>
+  <data name="H1381Head" xml:space="preserve">
+    <value>2002- Developed and up to dated the powder production unit.</value>
+  </data>
+  <data name="H1381Text" xml:space="preserve">
+    <value>Although KimiaRazi had produced the powder since the factory establishment, the Gate Dryer launched in 2002 to enhance the quality of the product.</value>
+  </data>
+  <data name="H1382Head" xml:space="preserve">
+    <value>2003- The primary and raw material processing unit started operating.</value>
+  </data>
+  <data name="H1382Text" xml:space="preserve">
+    <value>The processing mineral raw materials initiated to assure maintain of quality of raw mineral materials have been consumed in production line.</value>
+  </data>
+  <data name="H1383Head" xml:space="preserve">
+    <value>2004- Producing of Luster printing powder was started.</value>
+  </data>
+  <data name="H1383Text" xml:space="preserve">
+    <value>KimiaRazi started producing variety of Luster printing powder to satisfy customers’ needs.</value>
+  </data>
+  <data name="H1384Head" xml:space="preserve">
+    <value>2005 – The product line of Vitrosa came into operation</value>
+  </data>
+  <data name="H1384Text" xml:space="preserve">
+    <value>The production of different kinds of Vitrosa started up applying the newest equipment and technology.</value>
+  </data>
+  <data name="H1392Head" xml:space="preserve">
+    <value>2013 – Digital printing Ink production.</value>
+  </data>
+  <data name="H1392Text" xml:space="preserve">
+    <value>The laboratory and complete circle of production of Digital printing Ink was set up and introduced KimiaRazi as the first producer of the product in Iran.</value>
+  </data>
+  <data name="H1394Head" xml:space="preserve">
+    <value>2016 – Zinc oxide production unit</value>
+  </data>
+  <data name="H1394Text" xml:space="preserve">
+    <value>The product line of zinc oxide, one of the main, basic and effective material on quality of the products.</value>
+  </data>
+  <data name="HistoryHead" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistorySubhead" xml:space="preserve">
+    <value>A Brief History of KimiaRazi</value>
+  </data>
+  <data name="HistoryText" xml:space="preserve">
+    <value>KimiaRazi was founded in the late 1360 (1981) in Alborz industrial city, Qazvin, Iran. The company included two independent factories on the land about 18 hectare (44.5 acres) in extent. The head office based in Tehran. It is the main and biggest ceramic glaze producer in Iran. It started manufacturing 4,000 tons a year which has increased to 80,000 tons a year at least. Based on its shareholders policy, keeping the company up to date and developing, KimiaRazi has expanded its activities through following stages:</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>KimiaRazi - History</value>
+  </data>
+  <data name="PolicyList1" xml:space="preserve">
+    <value>Meeting customers’ requirements and needs of high quality products, due to their expectations and mutual agreement, with fully understanding them.</value>
+  </data>
+  <data name="PolicyList2" xml:space="preserve">
+    <value>Expanding research and development work based on company’s capabilities to strengthen their competitive advantages, stay active and dominating presence in the market, adopt approaches to achieving economical products, and applying modern technology.</value>
+  </data>
+  <data name="PolicyList3" xml:space="preserve">
+    <value>Improving human resources as the most valuable investment resource by constant training, close co-operation in improvement of production process, taking their useful practical suggestions into consideration, and recruiting experienced and expert workforce as well.</value>
+  </data>
+  <data name="PolicyList4" xml:space="preserve">
+    <value>An efficient connection with raw and primary materials suppliers to supply the factory’s required materials on demand, at the proper time and soon enough.</value>
+  </data>
+  <data name="PolicyText" xml:space="preserve">
+    <value>KimiaRazi is the first and largest Ceramic glaze and Digital printing Ink manufacturer in Iran. It applies new technology and experienced proficient human resource to improve the quality of its products to fulfill its commitments to satisfy the customers’ requirements. KimiaRazi commits to constant improving of production process based on its capabilities. Therefore, it has adopted a strict policy offers superior and improving quality:</value>
+  </data>
+</root>
