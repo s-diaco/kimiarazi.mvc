@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to هر چند پودر چاپ از بدو تأسیس شرکت کیمیارازی در سبد محصولات این شرکت بوده است، ولی به منظور افزایش کیفیت این محصول، دستگاه خشک‌کن مخصوص (Gate Dryer) از سال ۱۳۸۱ راه‌اندازی گردید..
+        ///   Looks up a localized string similar to هر چند پودر چاپ از بدو تأسیس شرکت کیمیارازی در سبد محصولات این شرکت بوده است، ولی به منظور افزایش کیفیت این محصول، دستگاه خشک‌کن مخصوص (Gate Dryer) راه‌اندازی شد..
         /// </summary>
         public static string H1381Text {
             get {
