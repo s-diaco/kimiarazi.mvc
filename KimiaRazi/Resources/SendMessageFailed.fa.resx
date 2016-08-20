@@ -121,15 +121,15 @@
     <value />
   </data>
   <data name="H2" xml:space="preserve">
-    <value>Error in sending the message. Fill in Name, Email address and your message fields.</value>
+    <value>خطا در ارسال پیام. فیلدهای نام، ایمیل و پیام شما نباید خالی باشند.</value>
   </data>
   <data name="H3" xml:space="preserve">
-    <value>Thank you for your message.</value>
+    <value>با تشکر از تماس شما.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Error in sending the message</value>
+    <value>خطا در ارسال پیام</value>
   </data>
   <data name="ReturnLink" xml:space="preserve">
-    <value>Click here to return to previous page.</value>
+    <value>جهت بازگشت به صفحه قبل اینجا کلیک کنید.</value>
   </data>
 </root>

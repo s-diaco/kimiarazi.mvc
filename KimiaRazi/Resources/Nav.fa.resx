@@ -118,64 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>History</value>
+    <value>تاریخچه</value>
   </data>
   <data name="Contact" xml:space="preserve">
-    <value>Contact us</value>
+    <value>تماس با ما</value>
   </data>
   <data name="Digitalprinting" xml:space="preserve">
-    <value>Ink</value>
+    <value>جوهر</value>
   </data>
   <data name="Feature1Scale_Degree" xml:space="preserve">
-    <value>℃</value>
+    <value>درجه</value>
   </data>
   <data name="Feature2Scale_TEC" xml:space="preserve">
-    <value>(400℃)</value>
+    <value>(در دمای ۴۰۰ درجه)</value>
     <comment>html</comment>
   </data>
   <data name="Frit" xml:space="preserve">
-    <value>Frit</value>
+    <value>فریت</value>
   </data>
   <data name="Glaze" xml:space="preserve">
-    <value>Compounds</value>
+    <value>مجموعه</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
     <value />
   </data>
   <data name="Printpowder" xml:space="preserve">
-    <value>Printing powder</value>
+    <value>پودر چاپ</value>
   </data>
   <data name="ProductDesc" xml:space="preserve">
-    <value>Product Description</value>
+    <value>توضیحات محصول</value>
   </data>
   <data name="ProductFeature1_MaxTemp" xml:space="preserve">
-    <value>Maximum firing temperature</value>
+    <value>بیشترین دمای پخت</value>
   </data>
   <data name="ProductFeature1_MinTemp" xml:space="preserve">
-    <value>Minimum firing temperature</value>
+    <value>کمترین دمای پخت</value>
   </data>
   <data name="ProductFeature2_MaxTEC" xml:space="preserve">
-    <value>Maximum expansion coefficient</value>
+    <value>بیشترین ضریب انبساط</value>
   </data>
   <data name="ProductFeature2_MinTEC" xml:space="preserve">
-    <value>Minimum expansion coefficient</value>
+    <value>کمترین ضریب انبساط</value>
   </data>
   <data name="Products" xml:space="preserve">
-    <value>Products</value>
+    <value>محصولات</value>
   </data>
   <data name="ProductSpecs" xml:space="preserve">
-    <value>Technical Specification</value>
+    <value>مشخصات فنی</value>
   </data>
   <data name="Services" xml:space="preserve">
-    <value>Services</value>
+    <value>خدمات</value>
   </data>
   <data name="Specialglazes" xml:space="preserve">
-    <value>Special Glazes</value>
+    <value>لعاب‌های ویژه</value>
   </data>
   <data name="Thirdfiring" xml:space="preserve">
-    <value>Third Firing</value>
+    <value>پخت سوم</value>
   </data>
   <data name="ReturnBtn" xml:space="preserve">
-    <value>Go back</value>
+    <value>بازگشت</value>
   </data>
 </root>

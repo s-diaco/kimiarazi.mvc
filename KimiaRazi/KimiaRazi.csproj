@@ -671,7 +671,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Glaze.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Glaze.en.Designer.cs</LastGenOutput>
       <CustomToolNamespace>Resources</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Home.fa.resx">

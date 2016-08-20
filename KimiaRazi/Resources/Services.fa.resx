@@ -118,47 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Desc" xml:space="preserve">
-    <value>&lt;p&gt;In order to achieving the best co-operation way and long-term success in the mutually interested projects it keeps a close and good relation with its customers. Providing engineering customer service is one of its basic principles.&lt;/p&gt;
-&lt;p&gt;KimiaRazi offers necessary technical support and know- how to the customers to improve the quality of the products, and keeps the close and good relation with the customers to provide the best solution for each problem to  reach the satisfying result with particular condition for each customer. The company’s objective is mutually developing the products from designing to production. The comprehensive services was provided for each customer individually, allocated the particular conditions of that company and its market.&lt;/p&gt;</value>
+    <value>&lt;p&gt;شرکت کیمیارازی برای رسیدن به بهترین راه‌های همکاری و موفقیت در پروژه‌های مورد علاقه و واجد منافع مشترک برای طرفین، همواره در ارتباط تنگاتنگ با مشتریان است. خدمات مهندسی ارائه شده به مشتریان همواره یکی از اصول مهم شرکت کیمیارازی بوده است. &lt;/p&gt;
+&lt;p&gt;با تکیه بر تیم حرفه‌ای و ارتباط نزدیک با مشتریان، شرکت کیمیارازی برای ارتقای سطح کیفی محصولات مشتریان، پشتیبانی فنی و انتقال دانش لازم را فراهم می کند. ما به منظور فراهم کردن بهترین راه‌حل‌ها تا رسیدن به بهترین نتایج متناسب با شرایط ویژه هر مشتری، با آنها در ارتباط نزدیک هستیم. هدف ما توسعه مشترک محصول از مرحله طراحی تا تولید صنعتی است. خدمات جامع ما برای هر مشتری به‌طور جداگانه و ویژه شرایط خاص آن شرکت و بازار مورد نظر آنها ارائه می گردد. &lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value>Services</value>
+    <value>خدمات</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>KimiaRazi - Services</value>
+    <value>کیمیارازی - خدمات</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value>KimiaRazi engineering section provides customer services to tile and ceramic producers in both ceramic and digital printing Ink.</value>
+    <value>شرکت کیمیارازی به شرکت‌های تولیدکننده کاشی و سرامیک در دو بخش لعاب و جوهر دیجیتال خدمات ارائه می‌کند.</value>
   </data>
   <data name="Svc1h" xml:space="preserve">
-    <value>Designing and production</value>
+    <value>طراحی و ساخت انواع لعاب مورد نظر شما</value>
   </data>
   <data name="Svc1t" xml:space="preserve">
-    <value>The company is prepared to design and customize any kinds of glaze - frit, compound, powder, etc. – exclusively to the customer in full agreement with its producing process conditions and will test it on the customer’s product line to develop the best and most suitable formulae to achieve the satisfying end product.</value>
+    <value>ما آمادگی داریم هرگونه لعاب (فریت، مجموعه، پودر و غیره) را به‌طور اختصاصی و مناسب شرایط تولیدتان طراحی و روی خط تولید شما تست کنیم تا مناسب‌ترین فرمول ممکن برای رسیدن به محصول نهایی با کیفیت دلخواه حاصل شود.</value>
   </data>
   <data name="Svc2h" xml:space="preserve">
-    <value>The experts are available for professional consultation and advice for solving problems and improving the quality of Tile and Ceramic productions.</value>
+    <value>ارائه مشاوره درخصوص رفع مشکلات و بهبود کیفیت محصولات شرکت‌های کاشی و سرامیک</value>
   </data>
   <data name="Svc2t" xml:space="preserve">
-    <value>KimiaRazi undertakes to secure the customers’ superior quality products, therefore it gives its customers all-out-support by offering high quality products and giving advice for solving production problems and adapting methods and ways suitable for their production line.</value>
+    <value>تأمین کیفیت بالای تولیدات مشتریان از تعهدات کیمیارازی بوده و در این راه از طریق ارائه محصولات باکیفیت و نیز همراهی و همکاری به‌منظور رفع مشکلات تولید مشتری و توصیه به تغییرات مناسب در کنار مشتریان خود خواهد بود.</value>
   </data>
   <data name="Svc3h" xml:space="preserve">
-    <value>KimiaRazi experts help with any industrial and laboratory tests</value>
+    <value>همراهی کارشناسان ما در انجام آزمون آزمایشگاهی و صنعتی </value>
   </data>
   <data name="Svc3t" xml:space="preserve">
-    <value>The experienced experts are ready for any industrial and laboratory tests of any kinds of tile glaze to offer the best quality product to its customers.</value>
+    <value>کارشناسان مجرب شرکت آماده انجام آزمون آزمایشگاهی و صنعتی لعاب‌های مورد استفاده کارخانجات کاشی هستند تا بتوانند بهترین کیفیت را به مشتریان ارائه کنند.</value>
   </data>
   <data name="Svc4h" xml:space="preserve">
-    <value>The adaptation of the customers desired design to our inks.</value>
+    <value>تطبیق طرح‌های مورد نظر شما با جوهرهای ما</value>
   </data>
   <data name="Svc4t" xml:space="preserve">
-    <value>For those customers who put designs in market which made by other producers, KimiaRazi experts can produce inks exactly adopted to the previous ones in design and color and the customers should not be worried  about the color match at all.</value>
+    <value>برای مشتریانی که قبلاً طرح‌هایی با جوهرهای دیگر تولید و وارد بازار کرده‌اند این امکان وجود دارد تا با کمک کارشناسان کیمیارازی طرح‌های قبلی را از نظر طرح و رنگ کاملاْ منطبق با جوهر کیمیارازی تولید کنند و هیچ نگرانی بابت انطباق رنگ نداشته باشند.</value>
   </data>
   <data name="Svc5h" xml:space="preserve">
-    <value>Creation and correction of color profile</value>
+    <value>ساخت و اصلاح پروفایل</value>
   </data>
   <data name="Svc5t" xml:space="preserve">
-    <value>KimiaRazi can create a profile on customer request match up with all body, engob, glaze, firing and etc. conditions applying the latest equipment and soft wares in the world as soon as possible.</value>
+    <value>کیمیارازی بنا به درخواست مشتری، با بهره‌گیری از دستگاه‌ها و نرم‌افزارهای روز دنیا قابلیت ساخت پروفایل متناسب با کلیه شرایط بدنه، انگوب، لعاب، پخت و… را در کوتاه‌ترین زمان دارد.</value>
   </data>
 </root>

@@ -118,29 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Desc" xml:space="preserve">
-    <value>&lt;p&gt;Sometimes for gaining specific effects in particular deigns we must use special glaze, without which you are not able to design specially.&lt;/p&gt;
-                &lt;p&gt;With these materials you can make effects such as, bumps and dips, metal shining, cracks and etc. on tile surface.&lt;/p&gt;
-                &lt;p&gt;KimiaRazi specific glazes are produced by the latest and advanced technology and the most modern machinery which are as competitive as reputable European producers’ products in quality and consistency.&lt;/p&gt;</value>
+    <value>&lt;p&gt; در برخی موارد برای رسیدن به افکت‌های خاص در طرح‌ها٬ ناچار به استفاده از محصولات ویژه این افکت‌ها هستیم. با استفاده از این لعاب‌ها می‌توان طرح‌هایی را پیاده کرد که اجرای آنها بدون به‌کاربردن لعاب‌های ویژه امکان‌پذیر نیست.&lt;/p&gt;
+                &lt;p&gt; با استفاده از این مواد می‌توان افکت‌هایی مانند ایجاد برجستگی یا فرورفتگی، ایجاد جلای فلزی٬ طرح‌های ترک‌دار و غیره روی سطح کاشی ایجاد کرد.&lt;/p&gt;
+                &lt;p&gt;
+                    لعاب‌های ویژه تولیدی شرکت کیمیارازی با فناوری و دستگاه‌های مدرن روز تولید شده و از نظر کیفیت و ثبات محصول با تولیدات شرکت‌های مطرح اروپایی رقابت می‌کنند.
+                &lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value>Special Glazes</value>
+    <value>لعاب‌های ویژه</value>
   </data>
   <data name="List" xml:space="preserve">
     <value />
     <comment>Html</comment>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Products - Special Glazes</value>
+    <value>محصولات - لعاب‌های ویژه</value>
   </data>
   <data name="Prod1Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value>Protection Glaze</value>
+    <value>لعاب پروتکشن</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value>Special Glazes</value>
+    <value>لعاب‌های ویژه</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
     <value />
@@ -149,10 +151,10 @@
     <value />
   </data>
   <data name="Prod2H" xml:space="preserve">
-    <value>Metallic Glaze</value>
+    <value>لعاب متالیک</value>
   </data>
   <data name="Prod2Subhead" xml:space="preserve">
-    <value>Special Glazes</value>
+    <value>لعاب‌های ویژه</value>
   </data>
   <data name="Prod2Text" xml:space="preserve">
     <value />
@@ -161,10 +163,10 @@
     <value />
   </data>
   <data name="Prod3H" xml:space="preserve">
-    <value>Cracked glaze</value>
+    <value>لعاب ترکدار</value>
   </data>
   <data name="Prod3Subhead" xml:space="preserve">
-    <value>Special Glazes</value>
+    <value>لعاب‌های ویژه</value>
   </data>
   <data name="Prod3Text" xml:space="preserve">
     <value />

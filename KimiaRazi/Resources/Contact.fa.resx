@@ -118,65 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Address1Text" xml:space="preserve">
-    <value>4th floor, No31, Shiraz Jonoobi st., Mollasadra st., Tehran, Iran
-Zip code: 1435883134
-&lt;br /&gt;Tel.: +98 21 88041450, +98 21 88041451, +98 21 88041452&lt;br /&gt;FAX: +98 21 88041453</value>
+    <value>تهران – میدان ونک – خیابان ملاصدرا – خیابان شیراز جنوبی – پلاک ۳۱ – طبقه چهارم - کد پستی: ۱۴۳۵۸۸۳۱۳۴&lt;br /&gt;
+                    تلفن: ۲ – ۸۸۰۴۱۴۵۰ (۰۲۱)&lt;br /&gt;فکس: ۸۸۰۴۱۴۵۳ (۰۲۱)</value>
     <comment>html</comment>
   </data>
   <data name="Address1Title" xml:space="preserve">
-    <value>Head Office</value>
+    <value>دفتر مرکزی</value>
   </data>
   <data name="Address2Text" xml:space="preserve">
-    <value>South Farabi st., Mirdamad Gharbi (West Mirdamad) st., Alborz Industrial city, Qazvin, Iran.&lt;br /&gt;Tel: +98 28 32223658, 32222658&lt;br /&gt;FAX: +98 28 32222551</value>
+    <value>قزوین - شهر صنعتی البرز - فلکه دوم - خیابان میرداماد غربی - خیابان فارابی جنوبی &lt;br /&gt;
+                    تلفن: ۳۲۲۲۲۶۵۸ – ۳۲۲۲۳۶۵۸ (۰۲۸)&lt;br /&gt;فکس: ۳۲۲۲۲۵۵۱ (۰۲۸)</value>
     <comment>html</comment>
   </data>
   <data name="Address2Title" xml:space="preserve">
-    <value>Factory (No. 1)</value>
+    <value>کارخانه (واحد ۱)</value>
   </data>
   <data name="Address3Text" xml:space="preserve">
-    <value>Paknam st., Brillian Industrial City, 15th km BoinZahra-Qazvin Rd., Iran&lt;br /&gt;Tel: +98 28 36332331</value>
+    <value>کیلومتر ۱۵ جاده بوئین زهرا - قزوین - شهر صنعتی برلیان - خیابان پاکنام - جنب شرکت برلیان تهران&lt;br /&gt;
+                    تلفن: ۳۶۳۳۲۳۳۱ (۰۲۸)</value>
     <comment>html</comment>
   </data>
   <data name="Address3Title" xml:space="preserve">
-    <value>Factory (No. 2)</value>
+    <value>کارخانه (واحد ۲)</value>
   </data>
   <data name="ErrorEmptyMsgMail" xml:space="preserve">
-    <value>Please enter a valid email address.</value>
+    <value>لطفاً یک آدرس ایمیل معتبر جهت تماس وارد فرمایید.</value>
   </data>
   <data name="ErrorEmptyMsgName" xml:space="preserve">
-    <value>Please enter your name.</value>
+    <value>لطفاً نام خود را وارد کنید.</value>
   </data>
   <data name="ErrorEmptyMsgText" xml:space="preserve">
-    <value>Message couldn't be empty.</value>
+    <value>متن پیام نباید خالی باشد.</value>
   </data>
   <data name="Head" xml:space="preserve">
-    <value>Contact us</value>
+    <value>تماس با ما</value>
   </data>
   <data name="MsgEmail" xml:space="preserve">
-    <value>E-Mail</value>
+    <value>ایمیل</value>
   </data>
   <data name="MsgHead" xml:space="preserve">
-    <value>Send a Message</value>
+    <value>ارسال پیام</value>
   </data>
   <data name="MsgName" xml:space="preserve">
-    <value>Name</value>
+    <value>نام</value>
   </data>
   <data name="MsgPhone" xml:space="preserve">
-    <value>Phone</value>
+    <value>تلفن</value>
   </data>
   <data name="MsgSendBtn" xml:space="preserve">
-    <value>Send Message</value>
+    <value>ارسال پیام</value>
   </data>
   <data name="MsgSubhead" xml:space="preserve">
-    <value>Please send your message here.</value>
+    <value>در صورت تمایل پیام خود را از این قسمت برای کیمیارازی ارسال کنید.</value>
   </data>
   <data name="MsgText" xml:space="preserve">
-    <value>Message text</value>
+    <value>پیام شما</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>KimiaRazi - Contact us</value>
+    <value>تماس با کیمیارازی</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value>Don’t hesitate to contact us for any question or inquiry.</value>
+    <value>جهت هرگونه درخواست یا پرسش با ما تماس بگیرید.</value>
   </data>
 </root>
