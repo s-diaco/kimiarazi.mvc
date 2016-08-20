@@ -4,6 +4,7 @@ using KimiaRazi.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
@@ -114,14 +115,45 @@ namespace KimiaRazi.Controllers
             IProductService service = new ProductService();
             ProductViewModel model = new ProductViewModel();
             Product TargetProduct = service.GetProduct(id);
-            model.Name = TargetProduct.Name;
-            model.subtitle = TargetProduct.subtitle;
-            model.Description = TargetProduct.Description;
             model.ImageName = TargetProduct.ImageName;
-            model.MinSinter = Helpers.PersianNumeralHelper.ConvertNumerals(TargetProduct.MinSinter.ToString());
-            model.MaxSinter = Helpers.PersianNumeralHelper.ConvertNumerals(TargetProduct.MaxSinter.ToString());
-            model.TECMax = Helpers.PersianNumeralHelper.ConvertNumerals(TargetProduct.TECMax.ToString());
-            model.TECMin = Helpers.PersianNumeralHelper.ConvertNumerals(TargetProduct.TECMin.ToString());
+            model.MinSinter = TargetProduct.MinSinter.ToString();
+            model.MaxSinter = TargetProduct.MaxSinter.ToString();
+            model.TECMax = TargetProduct.TECMax.ToString();
+            model.TECMin = TargetProduct.TECMin.ToString();
+            if (new string[] { "fa" }.Contains(Thread.CurrentThread.CurrentUICulture.Name))
+            {
+                model.Name = TargetProduct.Name;
+                model.subtitle = TargetProduct.subtitle;
+                model.Description = TargetProduct.Description;
+            }
+            else
+            {
+                switch (id)
+                {
+                    case 1:
+                        model.Name = Resources.Frit.Prod3H;
+                        model.subtitle = Resources.Frit.Prod3Subhead;
+                        model.Description = Resources.Frit.Prod3Text;
+                        break;
+                    case 2:
+                        model.Name = Resources.Frit.Prod2H;
+                        model.subtitle = Resources.Frit.Prod2Subhead;
+                        model.Description = Resources.Frit.Prod2Text;
+                        break;
+                    case 3:
+                        model.Name = Resources.Frit.Prod1H;
+                        model.subtitle = Resources.Frit.Prod1Subhead;
+                        model.Description = Resources.Frit.Prod1Text;
+                        break;
+                    case 4:
+                        model.Name = Resources.Frit.Prod4H;
+                        model.subtitle = Resources.Frit.Prod4Subhead;
+                        model.Description = Resources.Frit.Prod4Text;
+                        break;
+                    default:
+                        throw new HttpRequestValidationException();
+                }
+            }
 
             return View(model);
         }
