@@ -213,6 +213,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Resources\Frit.Designer.cs">
+      <DependentUpon>Frit.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Resources\Frit.fa.Designer.cs">
       <DependentUpon>Frit.fa.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -362,11 +367,6 @@
       <DependentUpon>Glaze.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Resources\Frit.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Frit.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\Home.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -659,6 +659,11 @@
       <LastGenOutput>DigitalInk.en.Designer.cs</LastGenOutput>
       <CustomToolNamespace>Resources</CustomToolNamespace>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frit.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Frit.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Resources</CustomToolNamespace>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Frit.fa.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Frit.fa.Designer.cs</LastGenOutput>
@@ -802,11 +807,6 @@
     <EmbeddedResource Include="Resources\Glaze.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Glaze.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Resources</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Frit.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Frit.Designer.cs</LastGenOutput>
       <CustomToolNamespace>Resources</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Home.resx">
