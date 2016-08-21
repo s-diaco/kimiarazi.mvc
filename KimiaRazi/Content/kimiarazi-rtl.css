@@ -108,6 +108,10 @@ nav.navbar-fixed-top {
     font-style: normal !important;
 }
 
+.pull-right{
+    float: left !important;
+}
+
 /*
  *   end persian bootstrap section
  */

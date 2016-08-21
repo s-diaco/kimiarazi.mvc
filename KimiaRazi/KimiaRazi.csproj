@@ -223,6 +223,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Resources\Glaze.en1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Glaze.en.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\Glaze.fa.Designer.cs">
       <DependentUpon>Glaze.fa.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -672,6 +677,7 @@
     <EmbeddedResource Include="Resources\Glaze.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <CustomToolNamespace>Resources</CustomToolNamespace>
+      <LastGenOutput>Glaze.en1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Home.fa.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

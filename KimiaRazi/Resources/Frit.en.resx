@@ -166,13 +166,13 @@
     <value />
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value>Opaque Frit</value>
+    <value>Transparent Frit</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value>KimiaRazi Opaque Frit</value>
+    <value>KimiaRazi Transparent Frit</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
-    <value>Various formulations of bright white zirconium Opaque frit at reasonable price.</value>
+    <value>Different kinds of glossy and semi - glossy transparent frits.</value>
   </data>
   <data name="Prod2Feature" xml:space="preserve">
     <value />
@@ -190,13 +190,13 @@
     <value />
   </data>
   <data name="Prod3H" xml:space="preserve">
-    <value>Transparent Frit</value>
+    <value>Opaque Frit</value>
   </data>
   <data name="Prod3Subhead" xml:space="preserve">
-    <value>KimiaRazi Transparent Frit</value>
+    <value>KimiaRazi Opaque Frit</value>
   </data>
   <data name="Prod3Text" xml:space="preserve">
-    <value>Different kinds of glossy and semi - glossy transparent frits.</value>
+    <value>Various formulations of bright white zirconium Opaque frit at reasonable price.</value>
   </data>
   <data name="Prod4Feature" xml:space="preserve">
     <value />
