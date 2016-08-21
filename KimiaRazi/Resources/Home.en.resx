@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BigCompanyName" xml:space="preserve">
-    <value>Kimia Razi</value>
+    <value>KimiaRazi</value>
   </data>
   <data name="CompanyName" xml:space="preserve">
     <value>KimiaRazi</value>
@@ -161,7 +161,7 @@
     <value>Read more</value>
   </data>
   <data name="Subheading1" xml:space="preserve">
-    <value>The &lt;span class="colored-span"&gt;First&lt;/span&gt; and &lt;span class="colored-span"&gt;Biggest&lt;/span&gt; producer of ceramic glazes&lt;br&gt;and digital inks in Iran.</value>
+    <value>The &lt;span class="colored-span"&gt;First&lt;/span&gt; and &lt;span class="colored-span"&gt;Biggest&lt;/span&gt; producer of&lt;br&gt;ceramic glazes and inks in Iran.</value>
     <comment>html</comment>
   </data>
   <data name="Subheading2" xml:space="preserve">
