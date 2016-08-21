@@ -121,15 +121,15 @@
     <value />
   </data>
   <data name="H2" xml:space="preserve">
-    <value />
+    <value>Your message has been sent to KimiaRazi. We will contact you as soon as possible.</value>
   </data>
   <data name="H3" xml:space="preserve">
-    <value />
+    <value>Thank you for your message.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Message Sent</value>
   </data>
   <data name="ReturnLink" xml:space="preserve">
-    <value />
+    <value>Click here to return to previous page.</value>
   </data>
 </root>

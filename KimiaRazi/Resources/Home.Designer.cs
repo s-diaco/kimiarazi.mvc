@@ -124,7 +124,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to محصولات ما با استفاده از به روزترین و پیشرفته ترین تجهیزات و ماشین‌آلات، طراحی و تولید می‌شوند..
+        ///   Looks up a localized string similar to محصولات ما با استفاده از به‌روزترین و پیشرفته‌ترین تجهیزات و ماشین‌آلات طراحی و تولید می‌شوند..
         /// </summary>
         public static string Feature3text {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to با سابقه بیش از سه دهه٬ کیمیارازی قدیمی‌ترین و بزرگ‌ترین تولید کننده فریت و لعاب در ایران است..
+        ///   Looks up a localized string similar to با سابقه بیش از سه دهه٬ کیمیارازی قدیمی‌ترین و بزرگ‌ترین تولیدکننده فریت و لعاب در ایران است..
         /// </summary>
         public static string Feature4text {
             get {
@@ -169,7 +169,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to خط مشی کیمیارازی.
+        ///   Looks up a localized string similar to Our Policy.
         /// </summary>
         public static string Policy {
             get {
@@ -187,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&quot;colored-span&quot;&gt;اولین&lt;/span&gt; و &lt;span class=&quot;colored-span&quot;&gt;بزرگ‌ترین&lt;/span&gt; تولید کننده انواع لعاب&lt;br&gt;و جوهر دیجیتال در ایران.
+        ///   Looks up a localized string similar to &lt;span class=&quot;colored-span&quot;&gt;اولین&lt;/span&gt; و &lt;span class=&quot;colored-span&quot;&gt;بزرگ‌ترین&lt;/span&gt; تولیدکننده انواع لعاب&lt;br&gt;و جوهر دیجیتال در ایران..
         /// </summary>
         public static string Subheading1 {
             get {
@@ -196,7 +196,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&quot;colored-span&quot;&gt;گسترده‌ترین&lt;/span&gt; و &lt;span class=&quot;colored-span&quot;&gt;به‌روزترین&lt;/span&gt; سبد محصولات&lt;br&gt;در صنعت لعاب کشور.
+        ///   Looks up a localized string similar to &lt;span class=&quot;colored-span&quot;&gt;گسترده‌ترین&lt;/span&gt; و &lt;span class=&quot;colored-span&quot;&gt;به‌روزترین&lt;/span&gt; سبد محصولات&lt;br&gt;در صنعت لعاب کشور..
         /// </summary>
         public static string Subheading2 {
             get {

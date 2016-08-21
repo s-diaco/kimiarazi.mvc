@@ -121,15 +121,15 @@
     <value />
   </data>
   <data name="H2" xml:space="preserve">
-    <value />
+    <value>Error in sending the message. Fill in Name, Email address and your message fields.</value>
   </data>
   <data name="H3" xml:space="preserve">
-    <value />
+    <value>Thank you for your message.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Error in sending the message</value>
   </data>
   <data name="ReturnLink" xml:space="preserve">
-    <value />
+    <value>Click here to return to previous page.</value>
   </data>
 </root>

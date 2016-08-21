@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تهران – میدان ونک – خیابان ملاصدرا – خیابان شیراز جنوبی – نبش کوچه سرو – پلاک ۳۱ – طبقه چهارم - کد پستی: ۱۴۳۵۸۸۳۱۳۴&lt;br /&gt;
+        ///   Looks up a localized string similar to تهران – میدان ونک – خیابان ملاصدرا – خیابان شیراز جنوبی – پلاک ۳۱ – طبقه چهارم - کد پستی: ۱۴۳۵۸۸۳۱۳۴&lt;br /&gt;
         ///                    تلفن: ۲ – ۸۸۰۴۱۴۵۰ (۰۲۱)&lt;br /&gt;فکس: ۸۸۰۴۱۴۵۳ (۰۲۱).
         /// </summary>
         public static string Address1Text {
@@ -80,7 +80,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to قزوین - شهر صنعتی البرز - فلکه دوم - خیابان میرداماد غربی - جنب اداره پست - خیابان فارابی جنوبی &lt;br /&gt;
+        ///   Looks up a localized string similar to قزوین - شهر صنعتی البرز - فلکه دوم - خیابان میرداماد غربی - خیابان فارابی جنوبی &lt;br /&gt;
         ///                    تلفن: ۳۲۲۲۲۶۵۸ – ۳۲۲۲۳۶۵۸ (۰۲۸)&lt;br /&gt;فکس: ۳۲۲۲۲۵۵۱ (۰۲۸).
         /// </summary>
         public static string Address2Text {
@@ -226,7 +226,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to جهت هر گونه درخواست یا پرسش با ما تماس بگیرید..
+        ///   Looks up a localized string similar to جهت هرگونه درخواست یا پرسش با ما تماس بگیرید..
         /// </summary>
         public static string Subhead {
             get {

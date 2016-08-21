@@ -118,68 +118,80 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Desc" xml:space="preserve">
-    <value />
+    <value>&lt;p&gt;The quality of printing powder plays a significant role in quality of designs on the body and rotocolor print machines life. We should apply the most matched printing powder and the suitable good quality color as well to achieve the highest quality and stability.&lt;/p&gt;&lt;p&gt;KimiaRazi makes printing powders with the latest and advanced technology and machinery to provide high quality and stability come to customers’ expectations.&lt;/p&lt;p&gt;The printing powders from a variety kinds allow the company to meet all variable needs of the market. The company’s experts with lots of years of practical experience in designing different kinds of printing powder for rotocolor prints, design the best and most suitable formula for the customer.&lt;/p&gt;</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value />
+    <value>Printing powder</value>
   </data>
   <data name="List" xml:space="preserve">
     <value />
     <comment>Html</comment>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Products - Printing Powder</value>
   </data>
   <data name="Prod1Feature" xml:space="preserve">
-    <value />
+    <value>Firing temperature 1010-1180℃.</value>
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value />
+    <value>Transparent Printing Powder</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Transparent printing powder</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
-    <value />
+    <value>With high colour effect and variable glossy rate are ready to offer to customers with different needs.</value>
   </data>
   <data name="Prod2Feature" xml:space="preserve">
-    <value />
+    <value>Firing temperature 1010-1180℃.</value>
   </data>
   <data name="Prod2H" xml:space="preserve">
-    <value />
+    <value>Matt Printing Powder</value>
   </data>
   <data name="Prod2Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Matt printing powder</value>
   </data>
   <data name="Prod2Text" xml:space="preserve">
-    <value />
+    <value>Different kinds of transparent and opaque matt printing powder with wide range of surface quality and other optical effect specifications.  The experts can produce the best product as soon as possible, particularly on customer requirements.</value>
   </data>
   <data name="Prod3Feature" xml:space="preserve">
-    <value />
+    <value>Firing temperature 1010-1180 °C.</value>
   </data>
   <data name="Prod3H" xml:space="preserve">
-    <value />
+    <value>Opaque Printing Powder</value>
   </data>
   <data name="Prod3Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Opaque printing powder</value>
   </data>
   <data name="Prod3Text" xml:space="preserve">
-    <value />
+    <value>In full agreement with the customers required specifications, considerably bright white and glossy. It is also suitable for using in designs in which white colours are applied.</value>
   </data>
   <data name="Prod4Feature" xml:space="preserve">
-    <value />
+    <value>Firing temperature 950-1200℃.</value>
   </data>
   <data name="Prod4H" xml:space="preserve">
-    <value />
+    <value>Re-active Printing Powder</value>
   </data>
   <data name="Prod4Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Re-active printing powder</value>
   </data>
   <data name="Prod4Text" xml:space="preserve">
-    <value />
+    <value>With high subsidence on the glaze surfaces with uneven designs.</value>
+  </data>
+  <data name="Prod5Feature" xml:space="preserve">
+    <value>Firing temperature 1010-1180 ℃.</value>
+  </data>
+  <data name="Prod5H" xml:space="preserve">
+    <value>Luster Printing Powder</value>
+  </data>
+  <data name="Prod5Subhead" xml:space="preserve">
+    <value>KimiaRazi Luster printing powder</value>
+  </data>
+  <data name="Prod5Text" xml:space="preserve">
+    <value>Used for designs with high light reflection for getting more shine.</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Printing powders</value>
   </data>
 </root>

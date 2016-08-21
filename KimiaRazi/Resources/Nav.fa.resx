@@ -117,48 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Desc" xml:space="preserve">
-    <value>&lt;p&gt;شرکت کیمیارازی برای رسیدن به بهترین راه‌های همکاری و موفقیت در پروژه‌های مورد علاقه و واجد منافع مشترک برای طرفین، همواره در ارتباط تنگاتنگ با مشتریان است. خدمات مهندسی ارائه شده به مشتریان همواره یکی از اصول مهم شرکت کیمیارازی بوده است. &lt;/p&gt;
-&lt;p&gt;با تکیه بر تیم حرفه‌ای و ارتباط نزدیک با مشتریان، شرکت کیمیارازی برای ارتقای سطح کیفی محصولات مشتریان، پشتیبانی فنی و انتقال دانش لازم را فراهم می کند. ما به منظور فراهم کردن بهترین راه‌حل‌ها تا رسیدن به بهترین نتایج متناسب با شرایط ویژه هر مشتری، با آنها در ارتباط نزدیک هستیم. هدف ما توسعه مشترک محصول از مرحله طراحی تا تولید صنعتی است. خدمات جامع ما برای هر مشتری به‌طور جداگانه و ویژه شرایط خاص آن شرکت و بازار مورد نظر آنها ارائه می گردد. &lt;/p&gt;</value>
-    <comment>Html</comment>
+  <data name="About" xml:space="preserve">
+    <value>تاریخچه</value>
   </data>
-  <data name="Head" xml:space="preserve">
-    <value>خدمات</value>
+  <data name="Contact" xml:space="preserve">
+    <value>تماس با ما</value>
+  </data>
+  <data name="Digitalprinting" xml:space="preserve">
+    <value>جوهر</value>
+  </data>
+  <data name="Feature1Scale_Degree" xml:space="preserve">
+    <value>درجه</value>
+  </data>
+  <data name="Feature2Scale_TEC" xml:space="preserve">
+    <value>(در دمای ۴۰۰ درجه)</value>
+    <comment>html</comment>
+  </data>
+  <data name="Frit" xml:space="preserve">
+    <value>فریت</value>
+  </data>
+  <data name="Glaze" xml:space="preserve">
+    <value>مجموعه</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>کیمیارازی - خدمات</value>
+    <value />
   </data>
-  <data name="Subhead" xml:space="preserve">
-    <value>شرکت کیمیارازی به شرکت‌های تولیدکننده کاشی و سرامیک در دو بخش لعاب و جوهر دیجیتال خدمات ارائه می‌کند.</value>
+  <data name="Printpowder" xml:space="preserve">
+    <value>پودر چاپ</value>
   </data>
-  <data name="Svc1h" xml:space="preserve">
-    <value>طراحی و ساخت انواع لعاب مورد نظر شما</value>
+  <data name="ProductDesc" xml:space="preserve">
+    <value>توضیحات محصول</value>
   </data>
-  <data name="Svc1t" xml:space="preserve">
-    <value>ما آمادگی داریم هرگونه لعاب (فریت، مجموعه، پودر و غیره) را به‌طور اختصاصی و مناسب شرایط تولیدتان طراحی و روی خط تولید شما تست کنیم تا مناسب‌ترین فرمول ممکن برای رسیدن به محصول نهایی با کیفیت دلخواه حاصل شود.</value>
+  <data name="ProductFeature1_MaxTemp" xml:space="preserve">
+    <value>بیشترین دمای پخت</value>
   </data>
-  <data name="Svc2h" xml:space="preserve">
-    <value>ارائه مشاوره درخصوص رفع مشکلات و بهبود کیفیت محصولات شرکت‌های کاشی و سرامیک</value>
+  <data name="ProductFeature1_MinTemp" xml:space="preserve">
+    <value>کمترین دمای پخت</value>
   </data>
-  <data name="Svc2t" xml:space="preserve">
-    <value>تأمین کیفیت بالای تولیدات مشتریان از تعهدات کیمیارازی بوده و در این راه از طریق ارائه محصولات باکیفیت و نیز همراهی و همکاری به‌منظور رفع مشکلات تولید مشتری و توصیه به تغییرات مناسب در کنار مشتریان خود خواهد بود.</value>
+  <data name="ProductFeature2_MaxTEC" xml:space="preserve">
+    <value>بیشترین ضریب انبساط</value>
   </data>
-  <data name="Svc3h" xml:space="preserve">
-    <value>همراهی کارشناسان ما در انجام آزمون آزمایشگاهی و صنعتی </value>
+  <data name="ProductFeature2_MinTEC" xml:space="preserve">
+    <value>کمترین ضریب انبساط</value>
   </data>
-  <data name="Svc3t" xml:space="preserve">
-    <value>کارشناسان مجرب شرکت آماده انجام آزمون آزمایشگاهی و صنعتی لعاب‌های مورد استفاده کارخانجات کاشی هستند تا بتوانند بهترین کیفیت را به مشتریان ارائه کنند.</value>
+  <data name="Products" xml:space="preserve">
+    <value>محصولات</value>
   </data>
-  <data name="Svc4h" xml:space="preserve">
-    <value>تطبیق طرح‌های مورد نظر شما با جوهرهای ما</value>
+  <data name="ProductSpecs" xml:space="preserve">
+    <value>مشخصات فنی</value>
   </data>
-  <data name="Svc4t" xml:space="preserve">
-    <value>برای مشتریانی که قبلاً طرح‌هایی با جوهرهای دیگر تولید و وارد بازار کرده‌اند این امکان وجود دارد تا با کمک کارشناسان کیمیارازی طرح‌های قبلی را از نظر طرح و رنگ کاملاْ منطبق با جوهر کیمیارازی تولید کنند و هیچ نگرانی بابت انطباق رنگ نداشته باشند.</value>
+  <data name="Services" xml:space="preserve">
+    <value>خدمات</value>
   </data>
-  <data name="Svc5h" xml:space="preserve">
-    <value>ساخت و اصلاح پروفایل</value>
+  <data name="Specialglazes" xml:space="preserve">
+    <value>لعاب‌های ویژه</value>
   </data>
-  <data name="Svc5t" xml:space="preserve">
-    <value>کیمیارازی بنا به درخواست مشتری، با بهره‌گیری از دستگاه‌ها و نرم‌افزارهای روز دنیا قابلیت ساخت پروفایل متناسب با کلیه شرایط بدنه، انگوب، لعاب، پخت و… را در کوتاه‌ترین زمان دارد.</value>
+  <data name="Thirdfiring" xml:space="preserve">
+    <value>پخت سوم</value>
+  </data>
+  <data name="ReturnBtn" xml:space="preserve">
+    <value>بازگشت</value>
   </data>
 </root>

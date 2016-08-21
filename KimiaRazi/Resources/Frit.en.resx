@@ -117,69 +117,100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="BeforeList" xml:space="preserve">
+    <value>The main concern of the company in addition to offering the product in full agreement with customers’ requirement is maintaining the quality, consistency and stability in the product which would be possible for frits due to following factors:</value>
+  </data>
   <data name="Desc" xml:space="preserve">
-    <value />
+    <value>&lt;p&gt;Frit is the main component of almost all kinds of glaze. Frit is one of the constituents of most of transparent glazes. The verity of frit consumption and tile production procedure in which frit is used, has affected the wide range of quality over time.&lt;/p&gt;
+&lt;p&gt;The different base frits have variable types. KimiaRazi is able to produce all kinds of frit. It has employed modern machinery and expert workforce in addition to 40 year experience in producing frit. Its wide range of products enabled it to meet any demand of the customers for firing temperature, thermal expansion coefficient, surface quality, physical specifications, effects and different usage.
+&lt;/p&gt;
+&lt;p&gt;KimiaRazi is the largest and most successful Tile and Ceramic supplier of frit, relying on high quality of its products.
+&lt;/p&gt;
+</value>
     <comment>Html</comment>
   </data>
   <data name="Head" xml:space="preserve">
-    <value />
+    <value>Frits</value>
   </data>
-  <data name="List" xml:space="preserve">
-    <value />
-    <comment>Html</comment>
+  <data name="List1" xml:space="preserve">
+    <value>Applying experienced experts in whole testing and producing process.</value>
+  </data>
+  <data name="List2" xml:space="preserve">
+    <value>Using high grade raw materials in producing frit.</value>
+  </data>
+  <data name="List3" xml:space="preserve">
+    <value>Using modern laboratory and production equipment.</value>
+  </data>
+  <data name="List4" xml:space="preserve">
+    <value>All frits in high quantity order produce in continuous kiln.</value>
+  </data>
+  <data name="List5" xml:space="preserve">
+    <value>The consistence of all primary and raw material input are controlled and checked by comparative and analytic quality and quantity tests.</value>
+  </data>
+  <data name="List6" xml:space="preserve">
+    <value>Precise controlling and checking of the produced frits by sampling and testing any 1000 kg of produced frits.</value>
+  </data>
+  <data name="List7" xml:space="preserve">
+    <value>Checking firing coefficient and specifications with Dilatometer and thermal microscopes.</value>
+  </data>
+  <data name="List8" xml:space="preserve">
+    <value>Adequate primary and raw material storage. There is always enough primary and raw materials stock for one year at least.</value>
+  </data>
+  <data name="List9" xml:space="preserve">
+    <value>Applying frit homogenizing system before delivering the orders to customers.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value />
+    <value>Products - Frit</value>
   </data>
   <data name="Prod1Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod1H" xml:space="preserve">
-    <value />
+    <value>Transparent Frit</value>
   </data>
   <data name="Prod1Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Transparent Frit</value>
   </data>
   <data name="Prod1Text" xml:space="preserve">
-    <value />
+    <value>Different kinds of glossy and semi - glossy transparent frits.</value>
   </data>
   <data name="Prod2Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod2H" xml:space="preserve">
-    <value />
+    <value>Matt Frit</value>
   </data>
   <data name="Prod2Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Matt Frit</value>
   </data>
   <data name="Prod2Text" xml:space="preserve">
-    <value />
+    <value>Different types of transparent matt and opaque matt with smooth or rough surface and high chemical resistance.</value>
   </data>
   <data name="Prod3Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod3H" xml:space="preserve">
-    <value />
+    <value>Opaque Frit</value>
   </data>
   <data name="Prod3Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Opaque Frit</value>
   </data>
   <data name="Prod3Text" xml:space="preserve">
-    <value />
+    <value>Various formulations of bright white zirconium Opaque frit at reasonable price.</value>
   </data>
   <data name="Prod4Feature" xml:space="preserve">
     <value />
   </data>
   <data name="Prod4H" xml:space="preserve">
-    <value />
+    <value>Engob Frit</value>
   </data>
   <data name="Prod4Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi Engob Frits</value>
   </data>
   <data name="Prod4Text" xml:space="preserve">
-    <value />
+    <value>Various frits (Titanium, zirconium, alkaline …) are used in producing Engob ceramic tiles at reasonable price.</value>
   </data>
   <data name="Subhead" xml:space="preserve">
-    <value />
+    <value>KimiaRazi is the biggest and pioneer in manufacturing different kinds of Frit for producing Tile and Ceramic in Iran. Its products on the wide variety of type, thermal expansion coefficient and firing temperature has made an outstanding contribution to reputable Iranian Ceramic and Tile producers’ success.</value>
   </data>
 </root>

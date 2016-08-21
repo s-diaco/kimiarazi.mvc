@@ -71,10 +71,10 @@ namespace Resources {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;p&gt;
-        ///فریت‌ها جزء اصلی تقریباً همه لعاب‌های سرامیکی هستند و در بسیاری از ترکیباتی که سطح شیشه‌ای در آنها مورد نیاز است وجود دارند. تنوع موارد استفاده و روش‌های تولید کاشی‌هایی که فریت در آنها استفاده می‌شود، باعث شده که فریت‌ها در طول زمان تنوع کیفی زیادی پیدا کنند.
+        ///فریت‌ها جزء اصلی تقریباً همه لعاب‌های سرامیکی هستند و در بسیاری از ترکیبات سطح شیشه‌ای وجود دارند. تنوع موارد استفاده و روش‌های تولید کاشی‌هایی که فریت در آنها استفاده می‌شود، باعث شده فریت‌ها در طول زمان تنوع کیفی زیادی پیدا کنند.
         ///&lt;/p&gt;
         ///&lt;p&gt;
-        ///فریت‌ها بر مبانی مختلف دارای تقسیم بندی‌های متنوعی هستند که شرکت کیمیارازی با استفاده از ماشین‌آلات مدرن و نیروی متخصص خود و با پشتوانه حدود چهار دهه تجربه تولید انواع فریت، هر نوع فریتی را تولید می‌کند. با تنوع بالای محصولات، کیمیارا [rest of string was truncated]&quot;;.
+        ///فریت‌ها در ابعاد مختلف تقسیم بندی‌های متنوعی دارند که شرکت کیمیارازی با استفاده از ماشین‌آلات مدرن و نیروی متخصص خود و با پشتوانه حدود چهار دهه تجربه در تولید انواع فریت، هر نوع فریتی را تولید می‌کند. با تنوع بالای محصولات، کیمیارازی قادر است هر خواسته‌ای از طرف مشتر [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Desc {
             get {
@@ -101,7 +101,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to استفاده از مواد اولیه مرغوب جهت تولید فریت..
+        ///   Looks up a localized string similar to استفاده از مواد اولیه مرغوب برای تولید فریت..
         /// </summary>
         public static string List2 {
             get {
@@ -119,7 +119,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to همه سفارش‌های فریت با تناژ بالا در کوره‌های مداوم تولید می‌گردد..
+        ///   Looks up a localized string similar to همه سفارش‌های فریت با مقدار بالا در کوره‌های مداوم تولید می‌گردد..
         /// </summary>
         public static string List4 {
             get {
@@ -128,7 +128,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کنترل دقیق مواد اولیه ورودی به لحاظ ثبات با استفاده از تست‌های کمی و کیفی مقایسه‌ای و آنالیزی..
+        ///   Looks up a localized string similar to کنترل دقیق مواد اولیه ورودی به لحاظ ثبات، با استفاده از آزمایش‌های کمی و کیفی مقایسه‌ای و آنالیزی..
         /// </summary>
         public static string List5 {
             get {
@@ -137,7 +137,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کنترل دقیق فریت تولیدی به صورت نمونه برداری و تست هر تن از فریت تولیدی..
+        ///   Looks up a localized string similar to کنترل دقیق فریت تولیدی به‌صورت نمونه‌برداری و آزمایش هر تن از فریت تولید شده..
         /// </summary>
         public static string List6 {
             get {
@@ -155,7 +155,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to دپوی مناسب از مواد اولیه. همیشه حداقل به اندازه یک سال تولید مواد اولیه دپو انبار می‌باشد..
+        ///   Looks up a localized string similar to ذخیره مناسب از مواد اولیه. همیشه حداقل به اندازه یک سال تولید، مواد اولیه ذخیره انبار است..
         /// </summary>
         public static string List8 {
             get {
@@ -164,7 +164,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to استفاده از سیستم همگن سازی (میکس) فریت‌ها قبل از ارسال برای مشتری..
+        ///   Looks up a localized string similar to استفاده از سیستم همگن‌سازی فریت‌ها قبل از ارسال برای مشتری..
         /// </summary>
         public static string List9 {
             get {
@@ -326,7 +326,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ما اولین و بزرگترین تولید کننده انواع فریت جهت تولید کنندگان کاشی و سرامیک در ایران هستیم. محصولات ما با ویژگی‌های متنوع از نظر نوع، ضریب انبساط حرارتی و دمای پخت سهم به سزایی در موفقیت بسیاری از تولید کنندگان مطرح کاشی و سرامیک ایران دارد..
+        ///   Looks up a localized string similar to ما اولین و بزرگترین تولید کننده انواع فریت برای تولیدکنندگان کاشی و سرامیک در ایران هستیم. محصولات ما با ویژگی‌های متنوع از نظر نوع، ضریب انبساط حرارتی و دمای پخت سهم به‌سزایی در موفقیت بسیاری از تولیدکنندگان مطرح کاشی و سرامیک ایران دارد..
         /// </summary>
         public static string Subhead {
             get {

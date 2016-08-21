@@ -121,50 +121,50 @@
     <value>History</value>
   </data>
   <data name="Contact" xml:space="preserve">
-    <value>Contact</value>
+    <value>Contact us</value>
   </data>
   <data name="Digitalprinting" xml:space="preserve">
     <value>Ink</value>
   </data>
   <data name="Feature1Scale_Degree" xml:space="preserve">
-    <value>°C</value>
+    <value>℃</value>
   </data>
   <data name="Feature2Scale_TEC" xml:space="preserve">
-    <value>K&lt;sup&gt;-1&lt;/sup&gt;.10&lt;sup&gt;-7&lt;/sup&gt; @ 400°C</value>
+    <value>(400℃)</value>
     <comment>html</comment>
   </data>
   <data name="Frit" xml:space="preserve">
     <value>Frit</value>
   </data>
   <data name="Glaze" xml:space="preserve">
-    <value>Glaze</value>
+    <value>Compounds</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
     <value />
   </data>
   <data name="Printpowder" xml:space="preserve">
-    <value>Powder</value>
+    <value>Printing powder</value>
   </data>
   <data name="ProductDesc" xml:space="preserve">
-    <value>Product description</value>
+    <value>Product Description</value>
   </data>
   <data name="ProductFeature1_MaxTemp" xml:space="preserve">
-    <value>Max. firing temperature</value>
+    <value>Maximum firing temperature</value>
   </data>
   <data name="ProductFeature1_MinTemp" xml:space="preserve">
-    <value>Min. firing temperature</value>
+    <value>Minimum firing temperature</value>
   </data>
   <data name="ProductFeature2_MaxTEC" xml:space="preserve">
-    <value>Max TEC</value>
+    <value>Maximum expansion coefficient</value>
   </data>
   <data name="ProductFeature2_MinTEC" xml:space="preserve">
-    <value>Min. TEC</value>
+    <value>Minimum expansion coefficient</value>
   </data>
   <data name="Products" xml:space="preserve">
     <value>Products</value>
   </data>
   <data name="ProductSpecs" xml:space="preserve">
-    <value>Technical specifications</value>
+    <value>Technical Specification</value>
   </data>
   <data name="Services" xml:space="preserve">
     <value>Services</value>
@@ -176,6 +176,6 @@
     <value>Third Firing</value>
   </data>
   <data name="ReturnBtn" xml:space="preserve">
-    <value>Return</value>
+    <value>Go Back</value>
   </data>
 </root>
