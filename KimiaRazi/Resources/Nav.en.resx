@@ -178,4 +178,7 @@
   <data name="ReturnBtn" xml:space="preserve">
     <value>Go Back</value>
   </data>
+  <data name="MetaDesc" xml:space="preserve">
+    <value>KimiaRazi – Producer of Glazes, Engob and Ink for Iran’s tile industry. Old experience, New Technology, Different services.</value>
+  </data>
 </root>

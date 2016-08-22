@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to تماس.
+        ///   Looks up a localized string similar to تماس با ما.
         /// </summary>
         public static string Contact {
             get {
@@ -115,11 +115,20 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to لعاب.
+        ///   Looks up a localized string similar to مجموعه.
         /// </summary>
         public static string Glaze {
             get {
                 return ResourceManager.GetString("Glaze", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to شرکت کیمیا رازی - تولید کننده انواع لعاب، انگوب، فریت، پودرچاپ، وتروزا و جوهر ویژه چاپ دیجیتال کاشی در ایران با سابقه طولانی، خدمات متمایز و همگام با آخرین فناوری روز دنیا..
+        /// </summary>
+        public static string MetaDesc {
+            get {
+                return ResourceManager.GetString("MetaDesc", resourceCulture);
             }
         }
         
