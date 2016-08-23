@@ -511,6 +511,7 @@
     <Content Include="Images\Shared\logo.png" />
     <Content Include="Images\Shared\services-bg.jpg" />
     <Content Include="Images\Shared\spacer.png" />
+    <None Include="NotFound.cshtml" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -583,6 +584,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ticker00.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

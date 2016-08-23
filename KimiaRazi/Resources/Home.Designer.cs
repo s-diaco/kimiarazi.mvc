@@ -187,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کیمیارازی - انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک.
+        ///   Looks up a localized string similar to کیمیارازی | انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک.
         /// </summary>
         public static string PageTitle {
             get {
