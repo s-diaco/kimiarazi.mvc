@@ -511,6 +511,8 @@
     <Content Include="Images\Shared\logo.png" />
     <Content Include="Images\Shared\services-bg.jpg" />
     <Content Include="Images\Shared\spacer.png" />
+    <None Include="NotFound.cshtml" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -582,6 +584,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ticker00.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -604,11 +607,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Frits.cshtml" />
     <Content Include="Views\Home\Glazes.cshtml" />
-    <Content Include="Views\Home\Third_Firing.cshtml" />
-    <Content Include="Views\Home\Digital_Printing.cshtml" />
+    <Content Include="Views\Home\ThirdFiring.cshtml" />
+    <Content Include="Views\Home\DigitalPrinting.cshtml" />
     <Content Include="Views\Home\Equipment.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
-    <Content Include="Views\Home\Special_Glazes.cshtml" />
+    <Content Include="Views\Home\SpecialGlazes.cshtml" />
     <Content Include="Views\Home\ProductDetail.cshtml" />
     <Content Include="Views\Home\Powders.cshtml" />
     <Content Include="Views\Home\Success.cshtml" />

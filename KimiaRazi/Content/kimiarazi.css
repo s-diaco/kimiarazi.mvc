@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6, .section-subheading {
 }
 
 @media (min-width: 992px) {
+
     .timeline:before {
         right: 75px !important;
     }
@@ -108,6 +109,7 @@ ul.home-tick-list {
 
 #services .service-item p {
     line-height: 1.3;
+    font-size: 16px;
 }
 
 ul.big-list > li {
@@ -301,23 +303,23 @@ ul.big-list > li {
 
 /*   End Portfolio Styles         */
 
-.intro-body ul{
+.intro-body ul {
     list-style-type: none;
     padding: 0px;
 }
 
-.colored-span{
+.colored-span {
     color: #037a00;
 }
 
 /*   animated scroll loading effect Styles         */
 
 .visible {
-    opacity:1;
+    opacity: 1;
 }
 
 .not-visible {
-    opacity:0;
+    opacity: 0;
 }
 
 /*   End animated scroll loading effect Styles         */
@@ -328,4 +330,8 @@ ul.big-list > li {
 
 .navbar-default .nav li a {
     color: #fff;
+}
+
+#addresses .text-muted{
+    font-size: 14px;
 }

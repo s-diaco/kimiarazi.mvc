@@ -3,9 +3,10 @@
 }
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
 
-<head>    
-    <!-- Loading style -->
+    <!-- Loading styles. We are using inline styles for loading sections because we need the fastest way to reach this section. the rest of the css is stored in css files.-->
     <style>
         #loading {
             background-color: #000;
@@ -154,13 +155,16 @@
     </style>
     <!-- End Loading style -->
 
-    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="KimiaRazi">
+    <meta name="description" content="@Resources.Nav.MetaDesc" />
+    <meta name="keywords" content="@Resources.Home.Keywords" />
+    <meta property="og:title" content="@Resources.Home.ogTitle" />
+    <meta property="og:image" content="http://kimiarazi.com/Images/home/intro-bg.jpg" />
+    <meta property="og:description" content="@Resources.Home.ogDesc" />
 
-  <title>@Resources.Home.PageTitle</title>
+    <title>@Resources.Home.PageTitle</title>
 
     @Styles.Render("~/Content/css-home" + (System.Threading.Thread.CurrentThread.CurrentUICulture.TextInfo.IsRightToLeft ? "-rtl" : ""), "~/font-awesome/css/font-awesome.min.css")
 
@@ -272,7 +276,7 @@
                             <span class="header">@Resources.Nav.Thirdfiring</span>
                             <p class="body">@Resources.Home.CompanyName</p>
                         </div>
-                        <a class="btn btn-success more" href='@Url.Action("Third_Firing", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                        <a class="btn btn-success more" href='@Url.Action("ThirdFiring", "Home")'>@Resources.Home.ReadMore &raquo;</a>
                     </li>
                     <li class="col-md-3 col-sm-6 col-xs-12 post">
                         <img src="~/Images/home/home-ink.jpg" alt="Kimiarazi Digital Ink for Tile Printing" />
@@ -280,7 +284,7 @@
                             <span class="header">@Resources.Nav.Digitalprinting</span>
                             <p class="body">@Resources.Home.CompanyName</p>
                         </div>
-                        <a class="btn btn-success more" href='@Url.Action("Digital_Printing", "Home")'>@Resources.Home.ReadMore &raquo;</a>
+                        <a class="btn btn-success more" href='@Url.Action("DigitalPrinting", "Home")'>@Resources.Home.ReadMore &raquo;</a>
                     </li>
                 </ul>
                 <!-- End Portfolio Items -->

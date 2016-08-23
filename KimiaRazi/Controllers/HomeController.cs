@@ -59,7 +59,7 @@ namespace KimiaRazi.Controllers
             return View();
         }
 
-        public ActionResult Digital_Printing()
+        public ActionResult DigitalPrinting()
         {
             ViewBag.ActiveClass2 = "class = active";
 
@@ -94,14 +94,14 @@ namespace KimiaRazi.Controllers
             return View();
         }
 
-        public ActionResult Third_Firing()
+        public ActionResult ThirdFiring()
         {
             ViewBag.ActiveClass2 = "class = active";
 
             return View();
         }
 
-        public ActionResult Special_Glazes()
+        public ActionResult SpecialGlazes()
         {
             ViewBag.ActiveClass2 = "class = active";
 
