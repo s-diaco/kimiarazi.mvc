@@ -160,7 +160,25 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to انواع لعاب و جوهر دیجیال برای تولیدکنندگان کاشی و سرامیک..
+        /// </summary>
+        public static string ogDesc {
+            get {
+                return ResourceManager.GetString("ogDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to کیمیارازی.
+        /// </summary>
+        public static string ogTitle {
+            get {
+                return ResourceManager.GetString("ogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to کیمیارازی - اولین و بزرگترین تولید کننده انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک در ایران.
         /// </summary>
         public static string PageTitle {
             get {
@@ -169,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our Policy.
+        ///   Looks up a localized string similar to خط مشی کیمیارازی.
         /// </summary>
         public static string Policy {
             get {

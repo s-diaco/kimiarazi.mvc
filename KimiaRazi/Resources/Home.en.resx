@@ -151,8 +151,14 @@
     <value>&lt;span class="light"&gt;Main&lt;/span&gt; Page</value>
     <comment>html</comment>
   </data>
-  <data name="PageTitle" xml:space="preserve">
+  <data name="ogDesc" xml:space="preserve">
+    <value>Glaze and inks for ceramic and tile producers.</value>
+  </data>
+  <data name="ogTitle" xml:space="preserve">
     <value>KimiaRazi</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>KimiaRazi - The first and biggest producer of glaze and inks for tile and ceramics in Iran.</value>
   </data>
   <data name="Policy" xml:space="preserve">
     <value>Our Policy</value>

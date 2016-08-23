@@ -151,8 +151,14 @@
     <value>&lt;span class="light"&gt;صفحه&lt;/span&gt; اصلی</value>
     <comment>html</comment>
   </data>
-  <data name="PageTitle" xml:space="preserve">
+  <data name="ogDesc" xml:space="preserve">
+    <value>انواع لعاب و جوهر دیجیال برای تولیدکنندگان کاشی و سرامیک.</value>
+  </data>
+  <data name="ogTitle" xml:space="preserve">
     <value>کیمیارازی</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>کیمیارازی - اولین و بزرگترین تولید کننده انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک در ایران</value>
   </data>
   <data name="Policy" xml:space="preserve">
     <value>خط مشی کیمیارازی</value>
