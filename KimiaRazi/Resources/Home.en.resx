@@ -158,7 +158,7 @@
     <value>KimiaRazi</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>KimiaRazi - The first and biggest producer of glaze and inks for tile and ceramics in Iran.</value>
+    <value>KimiaRazi - Glaze and ink for tile and ceramic producers.</value>
   </data>
   <data name="Policy" xml:space="preserve">
     <value>Our Policy</value>
@@ -177,5 +177,8 @@
   <data name="Subheading3" xml:space="preserve">
     <value />
     <comment>html</comment>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Glaze, Frit, Ink, Digital, Print, Tile, Ceramic, Industry, Engob, Engobe, KimiaRazi, Kimia Razi</value>
   </data>
 </root>

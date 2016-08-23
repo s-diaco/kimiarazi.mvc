@@ -160,6 +160,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to لعاب, فریت, جوهر, دیجیتال, چاپ, کاشی, سرامیک, صنعت, انگوب, کیمیا رازی.
+        /// </summary>
+        public static string Keywords {
+            get {
+                return ResourceManager.GetString("Keywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to انواع لعاب و جوهر دیجیال برای تولیدکنندگان کاشی و سرامیک..
         /// </summary>
         public static string ogDesc {
@@ -178,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to کیمیارازی - اولین و بزرگترین تولید کننده انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک در ایران.
+        ///   Looks up a localized string similar to کیمیارازی - انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک.
         /// </summary>
         public static string PageTitle {
             get {
