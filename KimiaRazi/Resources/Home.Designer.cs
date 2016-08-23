@@ -160,7 +160,34 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to لعاب, فریت, جوهر, دیجیتال, چاپ, کاشی, سرامیک, صنعت, انگوب, کیمیا رازی.
+        /// </summary>
+        public static string Keywords {
+            get {
+                return ResourceManager.GetString("Keywords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to انواع لعاب و جوهر دیجیال برای تولیدکنندگان کاشی و سرامیک..
+        /// </summary>
+        public static string ogDesc {
+            get {
+                return ResourceManager.GetString("ogDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to کیمیارازی.
+        /// </summary>
+        public static string ogTitle {
+            get {
+                return ResourceManager.GetString("ogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to کیمیارازی | انواع لعاب و جوهر چاپ دیجیتال کاشی و سرامیک.
         /// </summary>
         public static string PageTitle {
             get {
@@ -169,7 +196,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our Policy.
+        ///   Looks up a localized string similar to خط مشی کیمیارازی.
         /// </summary>
         public static string Policy {
             get {

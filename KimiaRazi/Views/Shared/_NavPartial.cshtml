@@ -1,5 +1,5 @@
 ﻿<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,7 +8,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href='@Url.Action("Index", "Home")'>
-                <img class="logo-icon" src="~/Images/Shared/logo.png" />@Resources.Home.CompanyName
+                <img class="logo-icon" src="~/Images/Shared/logo.png" alt="logo" />@Resources.Home.CompanyName
             </a>
         </div>
         
@@ -30,13 +30,13 @@
                             @Html.ActionLink(Resources.Nav.Printpowder, "Powders", "Home")
                         </li>
                         <li>
-                            @Html.ActionLink(Resources.Nav.Specialglazes, "Special_Glazes", "Home")
+                            @Html.ActionLink(Resources.Nav.Specialglazes, "SpecialGlazes", "Home")
                         </li>
                         <li>
-                            @Html.ActionLink(Resources.Nav.Thirdfiring, "Third_Firing", "Home")
+                            @Html.ActionLink(Resources.Nav.Thirdfiring, "ThirdFiring", "Home")
                         </li>
                         <li>
-                            @Html.ActionLink(Resources.Nav.Digitalprinting, "Digital_Printing", "Home")
+                            @Html.ActionLink(Resources.Nav.Digitalprinting, "DigitalPrinting", "Home")
                         </li>
                     </ul>
                 </li>
