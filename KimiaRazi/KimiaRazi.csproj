@@ -418,6 +418,7 @@
     <Content Include="Images\Portfolio\powder-reactive-big.jpg" />
     <Content Include="Images\Portfolio\powder-reactive-small.jpg" />
     <Content Include="Images\Shared\logo-text.png" />
+    <Content Include="InternalError.html" />
     <Content Include="InternalError.htm" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -512,6 +513,7 @@
     <Content Include="Images\Shared\services-bg.jpg" />
     <Content Include="Images\Shared\spacer.png" />
     <None Include="NotFound.cshtml" />
+    <Content Include="NotFound.html" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\agency.js" />
     <Content Include="Scripts\bootstrap.js" />
