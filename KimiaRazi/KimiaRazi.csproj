@@ -512,7 +512,7 @@
     <Content Include="Images\Shared\logo.png" />
     <Content Include="Images\Shared\services-bg.jpg" />
     <Content Include="Images\Shared\spacer.png" />
-    <None Include="NotFound.cshtml" />
+    <Content Include="NotFound.aspx" />
     <Content Include="NotFound.html" />
     <Content Include="robots.txt" />
     <Content Include="Scripts\agency.js" />
@@ -554,7 +554,6 @@
     <Content Include="font-awesome\scss\_variables.scss" />
     <Content Include="downloads\kimiarazi_color_specification_table.pdf" />
     <Content Include="GenericError.htm" />
-    <Content Include="NotFound.htm" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="HiddenSettings.config" />
     <None Include="Properties\PublishProfiles\Diaco.pubxml" />

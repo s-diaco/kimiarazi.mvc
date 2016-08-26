@@ -115,49 +115,57 @@ namespace KimiaRazi.Controllers
             IProductService service = new ProductService();
             ProductViewModel model = new ProductViewModel();
             Product TargetProduct = service.GetProduct(id);
-            model.ImageName = TargetProduct.ImageName;
-            model.MinSinter = TargetProduct.MinSinter.ToString();
-            model.MaxSinter = TargetProduct.MaxSinter.ToString();
-            model.TECMax = TargetProduct.TECMax.ToString();
-            model.TECMin = TargetProduct.TECMin.ToString();
-            if (new string[] { "fa" }.Contains(Thread.CurrentThread.CurrentUICulture.Name))
+            if (TargetProduct != null)
             {
-                model.Name = TargetProduct.Name;
-                model.subtitle = TargetProduct.subtitle;
-                model.Description = TargetProduct.Description;
+
+                model.ImageName = TargetProduct.ImageName;
+                model.MinSinter = TargetProduct.MinSinter.ToString();
+                model.MaxSinter = TargetProduct.MaxSinter.ToString();
+                model.TECMax = TargetProduct.TECMax.ToString();
+                model.TECMin = TargetProduct.TECMin.ToString();
+                if (new string[] { "fa" }.Contains(Thread.CurrentThread.CurrentUICulture.Name))
+                {
+                    model.Name = TargetProduct.Name;
+                    model.subtitle = TargetProduct.subtitle;
+                    model.Description = TargetProduct.Description;
+                }
+                else
+                {
+                    switch (id)
+                    {
+                        case 1:
+                            model.Name = Resources.Frit.Prod3H;
+                            model.subtitle = Resources.Frit.Prod3Subhead;
+                            model.Description = Resources.Frit.Prod3Text;
+                            break;
+                        case 2:
+                            model.Name = Resources.Frit.Prod2H;
+                            model.subtitle = Resources.Frit.Prod2Subhead;
+                            model.Description = Resources.Frit.Prod2Text;
+                            break;
+                        case 3:
+                            model.Name = Resources.Frit.Prod1H;
+                            model.subtitle = Resources.Frit.Prod1Subhead;
+                            model.Description = Resources.Frit.Prod1Text;
+                            break;
+                        case 4:
+                            model.Name = Resources.Frit.Prod4H;
+                            model.subtitle = Resources.Frit.Prod4Subhead;
+                            model.Description = Resources.Frit.Prod4Text;
+                            break;
+                        default:
+                            throw new HttpRequestValidationException();
+                    }
+                }
+
+                return View(model);
             }
             else
             {
-                switch (id)
-                {
-                    case 1:
-                        model.Name = Resources.Frit.Prod3H;
-                        model.subtitle = Resources.Frit.Prod3Subhead;
-                        model.Description = Resources.Frit.Prod3Text;
-                        break;
-                    case 2:
-                        model.Name = Resources.Frit.Prod2H;
-                        model.subtitle = Resources.Frit.Prod2Subhead;
-                        model.Description = Resources.Frit.Prod2Text;
-                        break;
-                    case 3:
-                        model.Name = Resources.Frit.Prod1H;
-                        model.subtitle = Resources.Frit.Prod1Subhead;
-                        model.Description = Resources.Frit.Prod1Text;
-                        break;
-                    case 4:
-                        model.Name = Resources.Frit.Prod4H;
-                        model.subtitle = Resources.Frit.Prod4Subhead;
-                        model.Description = Resources.Frit.Prod4Text;
-                        break;
-                    default:
-                        throw new HttpRequestValidationException();
-                }
+                throw new HttpException(404, "Are you sure you're in the right place?");
             }
-
-            return View(model);
         }
-        
+
         public ActionResult Powders()
         {
             ViewBag.ActiveClass2 = "class = active";

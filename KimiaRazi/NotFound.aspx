@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<% Response.StatusCode = 404 %>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,7 +9,7 @@
 
 <body>
     <div style="position: absolute; left: 50%; top: 50%; margin-left: -285px; margin-top: -190px; text-align: center;">
-        <img src="Images/Shared/error.jpg" alt="Error 404">
+        <img src="/Images/Shared/error.jpg" alt="Error 404">
         <h3>Page not found.</h3>
         <p>Please go back to previous page.</p>
         <a href="/">Kimiarazi</a>
