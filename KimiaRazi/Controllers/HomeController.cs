@@ -162,7 +162,7 @@ namespace KimiaRazi.Controllers
             }
             else
             {
-                throw new HttpException(404, "Are you sure you're in the right place?");
+                throw new HttpException(404, "Product page not found.");
             }
         }
 
