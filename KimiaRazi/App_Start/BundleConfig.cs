@@ -58,7 +58,7 @@ namespace KimiaRazi
                         "~/Scripts/jquery.easing.min.js",
                         "~/Scripts/jquery.viewportchecker.min.js"));
 
-            // BundleTable.EnableOptimizations = true;
+            BundleTable.EnableOptimizations = true;
             // bundles.UseCdn = true;
         }
     }
