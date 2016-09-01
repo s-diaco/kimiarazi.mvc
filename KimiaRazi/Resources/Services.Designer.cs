@@ -80,6 +80,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string MetaDesc {
+            get {
+                return ResourceManager.GetString("MetaDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to کیمیارازی - خدمات.
         /// </summary>
         public static string PageTitle {

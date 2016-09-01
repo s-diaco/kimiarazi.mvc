@@ -163,6 +163,9 @@
   <data name="List9" xml:space="preserve">
     <value>استفاده از سیستم همگن‌سازی فریت‌ها قبل از ارسال برای مشتری.</value>
   </data>
+  <data name="MetaDesc" xml:space="preserve">
+    <value />
+  </data>
   <data name="PageTitle" xml:space="preserve">
     <value>محصولات - فریت</value>
   </data>

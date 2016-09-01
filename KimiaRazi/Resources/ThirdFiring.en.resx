@@ -128,6 +128,9 @@
     <value />
     <comment>Html</comment>
   </data>
+  <data name="MetaDesc" xml:space="preserve">
+    <value />
+  </data>
   <data name="PageTitle" xml:space="preserve">
     <value>Products - Third Firing</value>
   </data>

@@ -181,4 +181,7 @@
   <data name="Keywords" xml:space="preserve">
     <value>لعاب, فریت, جوهر, دیجیتال, چاپ, کاشی, سرامیک, صنعت, انگوب, کیمیا رازی</value>
   </data>
+  <data name="MetaDesc" xml:space="preserve">
+    <value />
+  </data>
 </root>

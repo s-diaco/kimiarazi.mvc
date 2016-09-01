@@ -153,6 +153,9 @@
   <data name="Head" xml:space="preserve">
     <value>تماس با ما</value>
   </data>
+  <data name="MetaDesc" xml:space="preserve">
+    <value />
+  </data>
   <data name="MsgEmail" xml:space="preserve">
     <value>ایمیل</value>
   </data>
